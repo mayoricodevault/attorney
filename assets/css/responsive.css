@@ -1,0 +1,1806 @@
+/*
+ * Theme v1.0.0
+ * Copyright 2015-2016 Theemon.com
+ */
+/*
+ Table Of Contents
+ 1) Tablet and Desktop
+ 2) Desktop
+ 3) Tablet
+ 4) Mobile and Tablet
+ 5) Mobile
+ ===============================================*/
+
+/*
+ 1) Tablet and Desktop
+ ----------------------------------------*/
+@media only screen and (min-width: 767px) {
+	#wrapper.boxed, .boxed #header {
+		margin: 0 auto;
+		max-width: 768px;
+		width: 100%;
+	}
+	.homepage-2 .banner-slider .layer-b {
+		width: 476px !important;
+	}
+}
+@media only screen and (max-device-width: 1024px) {
+
+	.anim-section {
+
+		-moz-transform: translateY(0px);
+		-webkit-transform: translateY(0px);
+		-o-transform: translateY(0px);
+		-ms-transform: translateY(0px);
+		transform: translateY(0px);
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+/*
+ 2) Desktop
+ ----------------------------------------*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	#wrapper.boxed, .boxed #header {
+		margin: 0 auto;
+		max-width: 970px;
+		width: 100%;
+	}
+
+	.logo svg, .footer-logo svg {
+		width: 25px;
+	}
+	/*CSS style for Homepage2 Start here*/
+
+	.homepage-2 .news-upadte-content {
+		padding: 30px 10px;
+		min-height: 500px;
+	}
+	.homepage-2 .heading-hiring h2 {
+		font-size: 27px;
+	}
+	.homepage-2  #footer .get-theme, .homepage-2  #footer .copy-right {
+		font-size: 13px;
+	}
+
+	.homepage-2 #header .nav li {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.homepage-2 .testimonial .member-content {
+		padding-left: 0;
+	}
+	/*CSS style for Homepage start here*/
+
+	#header .media-listing li {
+		margin-right: 2.5px;
+	}
+	.nav > li > a {
+		padding-left: 9px;
+		padding-right: 6px;
+	}
+	#header .nav > li {
+		padding: 32px 7px 6px;
+	}
+	#header .icon-call {
+		margin-left: -10px;
+	}
+	.homepage-2 .banner-slider .layer-b {
+		width: 34% !important;
+		top: 48% !important;
+	}
+	.practice-area .family-law p {
+		min-height: 90px;
+	}
+	.client .client-listing li {
+		width: 17%;
+	}
+	.hiring-info h2.long-heading {
+		font-size: 28px;
+	}
+	#footer .get-theme, #footer .copy-right {
+		font-size: 10px;
+	}
+	#footer .icon-location {
+		width: 36px;
+	}
+	#footer .contact-number span {
+
+		margin-left: 17px;
+	}
+	#footer .main-footer p.para-description {
+		margin-bottom: 5px;
+	}
+	#footer .get-theme, #footer .copy-right {
+		line-height: 20px;
+	}
+
+	.banner-slider span.text-slider-two {
+		width: 90%;
+	}
+	.banner-slider .slider-two-content {
+		left: 45% !important;
+	}
+	.consulation .icon-consult.fa-mobile {
+		top: 7px
+	}
+	/*CSS style for Nomepage End here*/
+
+	/*CSS style for About-us start here*/
+
+	.our-principles .principles-detail {
+		width: 65%;
+	}
+
+	/*CSS style for About-us end here*/
+
+	/*CSS style for Attorney-detail start here*/
+
+	.our-services .heading-details {
+		line-height: 1.5;
+	}
+	.consulation .consult-info {
+		font-size: 15px;
+	}
+	.consulation .contact-consult {
+		font-size: 45px;
+	}
+
+	/*CSS style for Attorney-detail end here*/
+
+	/*CSS style for Attorney-listing-one start here*/
+	.attorney-listing-one-page .info-outer-container {
+		width: 60%;
+	}
+	/*CSS style for blog section Start here*/
+
+	.blog-listing-pics {
+		width: 300px;
+	}
+	.blog-information {
+		width: 378px;
+		padding-top: 15px;
+	}
+	.blog-content .about-us-paragraph {
+		margin-top: 19px;
+	}
+	.blog-content .blog-information .more-btn {
+		margin-top: 0;
+	}
+	.blog-content .heading-details {
+		line-height: 1.5;
+	}
+	.featured-blog-descpt {
+		width: 100px;
+	}
+	.follow-us-list li {
+		width: 67px;
+		margin-left: 5px;
+	}
+	.blog-comment {
+		width: 93%;
+	}
+
+	.happy-clients .happy-client-state {
+		padding-top: 40px;
+		padding-left: 60px;
+	}
+	.contact-page .form-block #detail-name {
+		width: 48%;
+	}
+	.history-content .history-declaration {
+		padding-top: 0;
+	}
+	.history-content .history-declaration .about-us-paragraph {
+		margin-top: 0;
+	}
+	.yearwise-listing .year-listing-block {
+		min-height: 278px;
+	}
+	.practice-one-page .detail-one-description {
+		padding-top: 0;
+	}
+	.practice-one-page .box-detail-left {
+
+		margin-right: 20px;
+	}
+
+	/*CSS style for blog section End here*/
+
+	/*CSS style for shortcode page start here*/
+	.tab-widget .nav-tabs li {
+		min-width: 102px;
+	}
+	.category-widget .panel-default h4 a {
+		padding-left: 10px;
+	}
+
+	.paginations-box .pagination li a, .paginations-box .pagination li a span {
+		padding: 5px 6px;
+		text-align: center;
+	}
+	.paginations-box .pagination li a.prev, .paginations-box .pagination li a.next {
+		min-width: 82px;
+	}
+	.paginations-box .pagination li {
+		margin-right: 5px;
+	}
+
+	/*CSS style for shortcode page end here*/
+
+}
+
+@media (min-width: 1200px) {
+
+	#wrapper.boxed, .boxed #header {
+		max-width: 1170px;
+		width: 100%;
+	}
+
+}
+
+/*
+ 3) Tablet
+ ----------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/*CSS style for Homepage1 start here*/
+	#wrapper.boxed, .boxed #header {
+		max-width: 750px;
+		width: 100%;
+	}
+	#footer .nav {
+		margin-top: 8px;
+	}
+	.logo .svg-shape {
+		top: -8px;
+	}
+	.logo svg {
+		width: 16px;
+	}
+	.consulation .icon-consult.fa-mobile {
+		top: 0;
+	}
+	/*CSS style for Homepage2 start here*/
+	.homepage-2 #header .nav li a {
+		padding: 10px 1px 9px 5px;
+		font-size: 11px;
+	}
+	#header .navbar-nav > li > .dropdown-menu {
+		min-width: 156px;
+	}
+	.homepage-2 #header .nav li {
+		padding: 32px 10px 6px;
+	}
+
+	.homepage-2 .about-us .about-us-details {
+		width: auto;
+	}
+	.practice-area .family-law p {
+		line-height: 1.5;
+	}
+	.homepage-2 .news-upadte-content {
+		background-size: cover;
+	}
+	.homepage-2 .testimonial .member-content {
+		padding-left: 0;
+		width: 80%;
+	}
+	.homepage-2 .news-update-block {
+		padding: 0;
+	}
+	.homepage-2 .client .client-listing li {
+		width: 15%;
+	}
+	.homepage-2 .heading-hiring h2 {
+		font-size: 20px;
+	}
+	.homepage-2 .hiring-info-detail .heading-hiring {
+		width: 70%;
+	}
+	.homepage-2 #footer .tablet-mode {
+		margin-top: 0;
+	}
+	.homepage-2 #footer .practice-listing li a, .homepage-2 #footer .location, #footer .contact-num {
+		font-size: 13px;
+	}
+	.homepage-2 #footer .media-listing li {
+		margin-right: 5px;
+	}
+	/*CSS style for Homepage start here*/
+
+	#header .contact-number {
+		display: none;
+	}
+	#header .navbar-nav > li > a {
+		padding: 10px 1px 10px 12px;
+	}
+	#header .nav > li {
+		padding: 32px 3px 6px;
+	}
+
+	.about-us .moment h2 {
+		font-size: 28px;
+	}
+	.banner-slider h2 {
+		font-size: 45px;
+	}
+
+	.banner-slider .btn-effect {
+		padding: 12px 20px;
+	}
+
+	.banner-slider span.text-slider-two {
+		width: 92%;
+	}
+	.banner-slider .slider-two-content {
+		left: 35% !important;
+	}
+	.banner-slider span.text-slider-three {
+
+		width: 90% !important;
+	}
+	.banner-slider .layer1.slider-three-content {
+		top: 62% !important;
+	}
+	.about-us .moment, .about-us .moment-right {
+		width: 295px;
+	}
+	.about-us .attorney-listing figure {
+		height: 158px;
+	}
+
+	.about-us .attorney-listing h2.at-h2 {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+
+	.about-us .media-listing li {
+		margin-right: 5px;
+	}
+
+	.news figure img {
+		width: 100%;
+	}
+	.news-testimonial .testimonial-inner {
+
+		width: 60%;
+	}
+
+	.news-testimonial .testimonial {
+		margin-top: 50px;
+	}
+	.testimonial {
+		padding-top: 60px;
+	}
+	.client .client-listing li {
+		width: 17%;
+	}
+	.clients-content .clients-listing li {
+		margin-bottom: 18px;
+	}
+	.hiring-info h2.long-heading {
+		font-size: 20px;
+	}
+	.hiring-info .hiring-detail {
+		font-size: 12px;
+	}
+
+	#footer .navbar-collapse {
+		padding: 0;
+	}
+	#footer .navbar-nav > li > a {
+		padding: 10px 7px 10px 10px;
+		font-size: 13px;
+	}
+	#footer .consultation > a {
+		font-size: 9px;
+	}
+	#footer .top-footer .icon-enevlope {
+		background-position: -7px 0;
+		width: 30px;
+	}
+	#footer .top-footer .consultation {
+		float: left;
+	}
+
+	#footer .main-footer .block-right {
+		margin-bottom: 30px;
+	}
+	#footer .main-footer p.para-description {
+		padding-right: 57px;
+	}
+	#footer .practice-listing .fa-chevron-right {
+		margin-right: 65px;
+	}
+	.news-testimonial .tabing-listing {
+		margin-left: 11%;
+	}
+	/*CSS style for Homepage End here*/
+	.shortcode-container {
+		padding-bottom: 30px;
+		padding-top: 60px;
+	}
+	.blog-two-page .blog-listing {
+		width: 90% !important;
+	}
+	.yearwise-listing .year-listing-block {
+		min-height: 240px;
+	}
+	.blog-details-page .user-blog-detail {
+		width: 70%;
+	}
+	.blog-details-page .blog-user-info figure {
+		width: 100px;
+		height: 100%;
+	}
+	.blog-details-page .blog-user-info {
+		padding: 35px 7px 39px 9px;
+	}
+	/*CSS style for About-us start here*/
+	.heading-details {
+		line-height: 20px;
+		margin-top: 10px;
+	}
+	.attorney-detail-container {
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.our-principles .index-box {
+
+		height: 45px;
+		margin-right: 7%;
+		padding-top: 8px;
+		width: 45px;
+	}
+	.our-principles .principles-detail {
+		width: 72%;
+	}
+	.panel-group .panel {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.our-services .practice-listing li a {
+		font-size: 12px;
+	}
+
+	/*CSS style for About-us end here*/
+	/*CSS style for attorney-detail start here*/
+	.attorney-detail-container .contact-education {
+		padding: 40px 15px;
+	}
+	.attorney-detail-container .education {
+		float: right;
+		width: 52%;
+	}
+	.attorney-detail-container .contact-him {
+		width: 44%;
+	}
+	.consulation .consult-info {
+		font-size: 11px;
+	}
+	.consulation .contact-consult {
+		font-size: 28px;
+	}
+	.consulation .icon-consult {
+		top: 5px;
+	}
+
+	/*CSS style for attorney-detail end here*/
+	.about-us #profile {
+		padding-top: 0;
+	}
+	.attorney-listing {
+		padding-top: 0;
+		padding-bottom: 45px;
+	}
+	.attorney-listing-one-page .info-outer-container {
+		width: 68%;
+	}
+	.attorney-listing-one-page .attorney-listing-box {
+		padding-bottom: 0;
+	}
+	.attorney-listing-one-page .attorney-listing-box figure {
+		width: 86px;
+		height: 86px;
+	}
+
+	.attorney-listing-one-page .attorney-listing-box h3 {
+		font-size: 14px;
+	}
+	.attorney-listing-one-page .attorney-listing .label-text {
+		font-size: 12px;
+	}
+	.attorney-listing-one-page .attorney-listing .attorney-information .media-listing li {
+		margin-left: 4px;
+	}
+	.attorney-listing-one-page .attorney-listing .attorney-information .media-listing {
+		width: 70px;
+	}
+	.attorney-listing-one-page .attorney-listing-box .about-us-paragraph {
+		margin-top: 0;
+	}
+	.about-us .attorney-listing figure {
+		height: auto;
+	}
+	.attorney-listing figure img {
+		width: 100%;
+	}
+	.news-testimonial .owl-carousel {
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	/*CSS style for blog section Start here*/
+
+	.blog-content {
+		padding: 50px 0px;
+	}
+
+	.blog-listing-pics {
+		width: 100%;
+		float: none;
+	}
+	.blog-listing-pics figure img {
+		width: 100%;
+	}
+	.blog-information {
+		width: 100%;
+		padding-top: 30px;
+		float: none;
+		padding-left: 30px;
+		padding-bottom: 20px;
+	}
+
+	.blog-one-page .blog-information {
+		padding-left: 0;
+	}
+	.blog-details-page .blog-information {
+		padding-left: 15px;
+	}
+	.blog-details-page .blog-content {
+		padding-bottom: 45px;
+		padding-top: 50px;
+	}
+	.comment-blog-listing .user-comment-list li .user-comment {
+		width: 70.6%;
+	}
+	.left-subspacer {
+		margin-left: 0;
+	}
+	.comment-blog-listing .user-comment-list li.left-subspacer .user-comment {
+		width: 72%;
+	}
+	.clients-content .clients-listing li span img {
+		display: block;
+		max-width: none !important;
+	}
+
+	.happy-clients .happy-client-state {
+		padding-left: 45px;
+		padding-top: 20px;
+	}
+	.contact-page .underline-label {
+		line-height: 15px;
+	}
+	.contact-page .form-block #name, .contact-page .form-block #email {
+		float: none;
+		width: 100%;
+	}
+	.contact-page .contact-form-form {
+		padding-bottom: 30px;
+		padding-top: 60px;
+	}
+
+	.consulation.faq-comment .consult-info {
+		font-size: 14px;
+	}
+
+	.history-content .history-declaration {
+		padding-top: 0;
+	}
+	.history-content .history-declaration .about-us-paragraph {
+		margin-top: 0;
+	}
+
+	.yearwise-listing .year-listing-block {
+		min-height: 335px;
+	}
+
+	.practice-one-page .practice-detail-container .detail-caption, .practice-one-page .detail-one-description, .practice-one-page .box-detail-left, .practice-one-page .box-detail-right {
+		float: none;
+		width: 100%;
+	}
+	.happy-client-list {
+		margin-bottom: 60px;
+	}
+
+	/*CSS style for blog section End here*/
+	.our-services {
+		padding-bottom: 50px;
+		padding-top: 20px;
+	}
+	.about-us-page #footer .main-footer {
+		padding-top: 45px;
+	}
+	.our-services .practice-listing {
+		margin-top: 40px
+	}
+	.our-services .practice-listing li {
+		margin-bottom: 10px
+	}
+	#slider .banner-text {
+		left: 0;
+	}
+	/*CSS style for shortcode page start here*/
+
+	.tag-widget-list li a {
+		padding: 0 6px;
+	}
+
+	.tab-widget .nav-tabs li {
+		min-width: 74px;
+	}
+
+	.tab-widget .nav-tabs li a {
+		font-size: 10px;
+	}
+	.tab-widget .tab-content {
+
+		padding: 6px 10px 8px;
+	}
+	.tab-widget .tab-content ul li {
+
+		padding-bottom: 0;
+		padding-top: 10px;
+	}
+	.category-widget .panel-default h4 a {
+		padding-left: 0;
+		padding-right: 40px;
+		font-size: 10px
+	}
+	.category-widget .panel-body {
+		padding: 0;
+		padding-bottom: 10px;
+	}
+	.left-paging {
+		width: 100%;
+		float: none;
+	}
+
+	.paginations-box .pagination li {
+		margin-right: 5px;
+	}
+
+	.paginations-box .pagination li a, .paginations-box .pagination li a span {
+		padding: 5px 4px;
+		text-align: center;
+	}
+	.paginations-box .pagination li a.prev, .paginations-box .pagination li a.next {
+		min-width: 78px;
+	}
+
+	.directional-list li a {
+		padding-left: 5px;
+	}
+	.column-griding {
+		margin-top: 60px;
+	}
+	.directional-list li a .fa-angle-right, .directional-list li a .fa-dot-circle-o {
+
+		left: -12px;
+		top: -4px;
+	}
+
+	.circle-list li a .fa-dot-circle-o {
+		font-size: 13px;
+		left: -15px;
+		top: 0;
+	}
+
+	.news-testimonial .user-testimonial {
+		background-size: cover;
+	}
+	.news-testimonial .owl-controls {
+		margin-top: -5px;
+	}
+	.news-testimonial .owl-wrapper-outer {
+		padding-bottom: 20px;
+	}
+	.news-testimonial .user-image {
+		bottom: -20px;
+	}
+
+	.news-testimonial .testimonial {
+		padding-top: 0px;
+	}
+
+	/*CSS style for shortcode page End here*/
+	.area-list-collection {
+		min-height: 0;
+	}
+	.happy-clients {
+		padding-bottom: 30px
+	}
+	.our-services {
+		padding-top: 0;
+	}
+	.practice-one-page .box-detail-right {
+		margin-bottom: 30px;
+	}
+
+	.featured-blog-descpt {
+		width: 167px;
+	}
+
+}
+
+/*
+ 5) Mobile
+ ----------------------------------------*/
+@media only screen and (max-width: 767px) {
+	/*CSS style for Homepage1 start here*/
+
+	#owl-demo-home.row.owl-carousel.owl-theme {
+		margin: 0 auto;
+	}
+
+	.homepage-2 .about-us .about-us-details, .homepage-2 .about-us .contact-details {
+		width: 100%;
+	}
+	.homepage-2 .about-us .seprate {
+		display: none;
+	}
+	.homepage-2 .about-us .phone-number {
+		margin: 0 auto 20px;
+		display: inline-block;
+	}
+	.homepage-2 .about-us .phone-detail {
+		text-align: center;
+	}
+	.homepage-2 .practice-area {
+
+		padding-bottom: 45px;
+		padding-top: 45px;
+	}
+	.homepage-2 .practice-area .family-law, .homepage-2 .practice-area .family-group {
+		text-align: center;
+	}
+	.homepage-2  .family-law  .arrow-more {
+		margin: 10px auto 0;
+	}
+
+	.homepage-2 .practice-area .h3:after {
+		right: 0;
+		margin: 0 auto;
+	}
+	.homepage-2 .attorney .owl-theme .owl-controls {
+
+		top: -45px;
+	}
+
+	.homepage-2 .news-update-block {
+		padding: 0;
+	}
+	.homepage-2 h2, .homepage-2 .news-listing-detail .left-block span > span {
+		font-size: 32px;
+	}
+	.homepage-2 .news-upadte-content {
+		padding: 10px;
+	}
+	.homepage-2 .news-listing-detail .left-block > span {
+		font-size: 12px;
+	}
+	.homepage-2 .news-listing-detail .right-block p {
+		font-size: 12px;
+		line-height: 1.5;
+	}
+	.homepage-2 .testimonial .side-colon::before {
+		left: 0;
+	}
+
+	.homepage-2 .testimonial .side-colon::after {
+		right: 0;
+	}
+	.homepage-2 .testimonial, .homepage-2 .client {
+		padding-top: 50px;
+	}
+	.homepage-2 .testimonial .member-container {
+		width: 100%;
+		float: none;
+	}
+
+	.homepage-2 .client .client-listing li {
+		width: 31%;
+	}
+	.homepage-2 .hiring-info-detail .heading-hiring {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.homepage-2 .hiring-info-detail .icon-civil {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.homepage-2 .hiring-info-detail .apply-section p {
+		padding: 0;
+	}
+	.homepage-2 .btn-grey {
+		margin: 0 auto;
+	}
+
+	.homepage-2 #footer .main-footer, .homepage-2 .attorney {
+		padding-top: 50px;
+	}
+	.homepage-2 #footer .listing-continue {
+		margin-top: 0;
+	}
+
+	/*CSS style for Homepage start here*/
+	#header .media-header {
+		display: none;
+	}
+	#header .primary-right-block {
+		float: none;
+		text-align: left;
+	}
+
+	#header .primary-header {
+		padding-bottom: 0;
+		display: none;
+	}
+	#header .consultation > a {
+		font-size: 12px;
+	}
+	#header .contact-number {
+		display: none;
+	}
+	#header .navigation {
+		position: relative;
+		top: 0;
+		margin-top: -37px;
+		padding: 0;
+		padding-bottom: 5px;
+	}
+	#header .navbar-nav {
+		background: #ddd;
+		padding: 15px 0;
+	}
+	#header .nav > li > a:after {
+		display: none;
+	}
+	#header .nav > li {
+		padding-top: 0;
+	}
+	#header .nav > li > a {
+		padding: 5px 0;
+	}
+	.homepage-2 #header .logo {
+		margin-top: 18px;
+	}
+	#header .navbar-default {
+		margin-bottom: 0;
+	}
+	#header .nav {
+		float: none;
+	}
+	#header .logo {
+		margin-top: 12px;
+		width: 61%;
+		z-index: 999;
+	}
+	.banner-slider h2 {
+		font-size: 30px;
+		margin-top: 35%;
+		width: 100%;
+	}
+	.banner-slider span {
+		font-size: 12px;
+		width: 100%;
+		margin-top: 40%;
+	}
+
+	.banner-slider .btn-effect {
+		font-size: 10px;
+		margin-top: 90%;
+		padding: 8px 9px;
+	}
+	.banner-slider .slider-two-content {
+		left: 5% !important;
+	}
+	.banner-slider span.text-slider-two {
+		width: 100%;
+	}
+	.banner-slider .layer1.slider-three-content {
+		top: 10% !important;
+	}
+	.banner-slider span.text-slider-three {
+		width: 95% !important;
+	}
+	.banner-slider .slider-three-content .btn-effect {
+		margin-top: 15% !important;
+	}
+	.banner-slider .slider-three-content h2 {
+		margin-top: 70% !important;
+	}
+	.banner-slider .layer2.slider-three-content {
+		top: 65% !important;
+	}
+	.practice-area {
+		padding-top: 30px;
+		padding-bottom: 0px;
+	}
+	.practice-area .practice-header .practice-desp, .news-testimonial .practice-desp, .about-us .practice-desp, .client .practice-desp {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.practice-area .family-group {
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+	.practice-area .family-law {
+		margin-bottom: 20px;
+	}
+	.practice-area .family-law p {
+		margin-bottom: 10px;
+	}
+	.about-us #profile {
+		margin-top: 0;
+	}
+	.about-us .seprater {
+		display: none;
+	}
+	.about-us .moment, .about-us .moment-right {
+		width: 100%;
+		margin-top: 0px;
+		text-align: left;
+	}
+	.about-us .moment figure {
+		height: auto;
+	}
+	.about-us figure img {
+		width: 100%;
+	}
+	.about-us .moment h2 {
+		font-size: 24px;
+		margin-bottom: 8px;
+	}
+
+	.news-testimonial .para-description, .para-description {
+
+		font-size: 12px;
+		margin-bottom: 12px;
+		margin-top: 8px;
+	}
+
+	.about-us .attroney-base {
+		margin-top: 20px;
+	}
+	.about-us {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.spacer-mobile {
+		margin-bottom: 30px;
+	}
+	.news-testimonial .testimonial-inner .h2 {
+		font-size: 24px;
+	}
+	.news-testimonial .testimonial-inner {
+		width: 100%;
+	}
+	.news-testimonial .user-description {
+		font-size: 12px;
+	}
+	.news-testimonial .user-testimonial {
+		padding-top: 30px;
+	}
+	.news-testimonial .news-half img {
+		width: 100%;
+	}
+	.blog-two-page .blog-listing {
+		width: 94% !important;
+	}
+
+	.client {
+		padding: 30px 0 30px;
+	}
+	.client .client-listing {
+		margin-top: 0;
+		text-align: center;
+	}
+	.client .client-listing li {
+		width: 25%;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.hiring-info h2.long-heading {
+		font-size: 19px;
+	}
+	.hiring-info {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-size: cover;
+	}
+	.more-btn.btn-footer {
+		margin-top: 15px;
+	}
+	.hiring-info .hiring-detail {
+		font-size: 12px;
+		width: 100%;
+	}
+	.hiring-info .btn-footer {
+
+		width: 240px;
+		margin: 0 auto;
+		min-width: auto;
+	}
+	.testimonial {
+		padding-top: 60px;
+	}
+	.column-griding {
+		margin-top: 60px;
+	}
+	.shortcode-container {
+		padding-bottom: 30px;
+		padding-top: 60px;
+	}
+	#footer .top-footer {
+		display: none;
+	}
+
+	#footer .main-footer {
+		padding-bottom: 40px;
+		padding-top: 30px;
+	}
+
+	#footer .listing-continue {
+		margin-top: 0;
+	}
+	.about-us .media-listing {
+		margin-top: 10px;
+	}
+	.about-us .attorney-listing {
+		margin-bottom: 20px;
+	}
+	/*.news figure, .news-testimonial .figure-description {
+	 width: 262px;
+	 }*/
+	/*CSS style for Homepage End here*/
+
+	/*CSS style for About-us start here*/
+	.our-attorney, .our-principles, .our-practice-area {
+		padding-top: 45px;
+		padding-bottom: 40px;
+	}
+	.attorney-mob {
+		margin-top: 20px;
+	}
+
+	.heading-details {
+		line-height: 1.5;
+		margin-top: 10px;
+	}
+	.our-principles .principles-detail {
+		width: 65%;
+	}
+	.panel-body, .panel-pics {
+		width: 100%;
+		float: none;
+	}
+
+	.panel-group .panel {
+		padding-left: 10px;
+		padding-bottom: 0;
+	}
+
+	.panel-pics {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.our-services {
+		margin-top: 20px;
+	}
+	.about-us-page #footer {
+		border-top: 2px solid #e7ebf3;
+	}
+	.our-attorney-pics {
+		text-align: center;
+	}
+	.our-attorney-pics img {
+		width: 100%;
+	}
+	/*CSS style for About-us end here*/
+
+	/*CSS style for attorney-detail start here*/
+
+	#slider .about-banner h1 {
+		font-size: 35px;
+	}
+
+	.attorney-detail-container {
+		padding-bottom: 45px;
+		padding-top: 50px;
+	}
+	.attorney-detail-container .contact-education {
+		padding: 20px 15px;
+	}
+
+	.attorney-detail-container .contact-him, .attorney-detail-container .education {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.attorney-detail-container .attorney-detail-para {
+		margin-top: 20px;
+	}
+	.contact-form {
+		padding-top: 45px;
+		min-height: 520px;
+	}
+	.form-block input, .form-block textarea {
+		padding: 0 15px;
+	}
+	.form-block textarea {
+		min-height: 120px;
+	}
+	.consulation {
+		padding: 30px 0px;
+	}
+	.consulation .contact-consult {
+		font-size: 30px;
+		border: none;
+		width: 300px;
+		margin: 0 auto;
+	}
+	.consulation .icon-consult {
+		background-position: -2px -46px;
+		background-size: 300px 300px;
+		height: 34px;
+		width: 30px;
+		left: 20px;
+	}
+
+	.consulation .week-time, .consulation .consult-info {
+		text-align: center;
+	}
+	.attorney-listing {
+		padding: 45px 0px;
+	}
+	.attorney-listing-page .attorney-listing {
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.attorney-listing-box figure img {
+		width: 100%;
+	}
+	.attorney-listing .attorney-information .media-listing li {
+		margin-left: 4px;
+	}
+	.attorney-listing-one-page .attorney-listing-box figure {
+		margin: 0 auto;
+		float: none;
+	}
+	.attorney-listing-one-page .info-outer-container {
+		float: none;
+		width: 100%;
+	}
+	.attorney-listing-one-page .attorney-listing {
+		padding-bottom: 30px;
+		padding-top: 50px;
+	}
+	.attorney-listing-one-page .attorney-listing-box figure {
+		width: 175px;
+		height: 175px;
+	}
+	.about-us #profile  .attorney-listing {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 0;
+		margin-bottom: 0;
+		padding-bottom: 30px;
+	}
+
+	.blog-admin-info li.admin {
+		margin-right: 6px;
+	}
+
+	/*CSS style for attorney-detail end here*/
+	.contact-page .contact-form-form {
+		padding-bottom: 30px;
+		padding-top: 60px;
+	}
+
+	/*CSS style for blog section Start here*/
+
+	.blog-content {
+		padding: 50px 0px;
+	}
+
+	.blog-listing-pics, .blog-information {
+		width: 100%;
+		float: none;
+	}
+	.blog-information {
+		padding-top: 30px;
+		padding-left: 15px;
+		padding-bottom: 20px;
+	}
+	.blog-comment {
+		width: 260px;
+	}
+	.blog-comment li {
+		margin-right: 5px;
+	}
+	.blog-listing-pics .blog-comment {
+		bottom: 17px;
+	}
+	/*CSS style for blog section End here*/
+	.mobile-line {
+		border-top: 2px solid #e7ebf3;
+	}
+	.blog-listing-pics figure img {
+		width: 100%;
+	}
+	.blog-outer {
+		width: 290px;
+	}
+	.featured-blog-descpt {
+		float: left;
+		margin-left: 30px;
+		width: 55%;
+	}
+	.blog-one-page .blog-information {
+		padding-left: 0;
+	}
+	.blog-details-page .blog-content {
+		padding-bottom: 45px;
+		padding-top: 50px;
+	}
+	.blog-details-page .blog-information {
+		padding-left: 15px;
+	}
+	.blog-details-page .blog-user-info figure {
+		float: none;
+		margin: 0 auto;
+	}
+	.blog-details-page .user-blog-detail {
+		width: 100%;
+		float: none;
+	}
+	.blog-details-page .blog-user-info {
+		padding: 15px;
+	}
+	.comment-blog-listing .user-comment-list li figure {
+		float: none;
+		margin: 0 auto;
+	}
+	.comment-blog-listing .user-comment-list li .user-comment {
+		float: none;
+		width: auto;
+		margin-top: 20px;
+	}
+	.left-subspacer {
+		margin-left: 0;
+	}
+
+	.comment-blog-listing .user-comment-list li.left-subspacer .user-comment {
+		width: auto;
+	}
+	.blog-details-page .blog-search {
+		margin-top: 30px;
+	}
+	.happy-client-list figure img {
+		width: 100%;
+	}
+	.happy-clients .happy-client-state {
+		padding-left: 50px;
+		padding-top: 55px;
+	}
+	.news-testimonial {
+		padding-bottom: 30px;
+	}
+	.contact-page .form-block #name, .contact-page .form-block #email {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+	.contact-page .contact-form-form {
+		padding-bottom: 45px;
+		padding-top: 50px;
+	}
+	.contact-page .contact-details {
+		margin-top: 30px;
+	}
+	.faq-listing {
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+	.faq-listing h2 {
+		font-size: 19px;
+	}
+	.faq-listing .heading-details {
+		font-size: 13px;
+	}
+	.faq-listing-list {
+		padding-left: 15px;
+		margin-top: 60px;
+		min-height: 0;
+	}
+	.faq-listing-list h3 {
+		margin-top: 10px
+	}
+	.faq-listing .question-label {
+		top: -34px;
+	}
+	.consulation.faq-comment .consult-info {
+		padding-bottom: 15px;
+	}
+	.block-divisor {
+		display: none;
+	}
+
+	.history-content .video-section img {
+		width: 100%;
+	}
+
+	.practice-one-page .practice-detail-container .detail-caption, .practice-one-page .detail-one-description, .practice-one-page .box-detail-left, .practice-one-page .box-detail-right {
+		float: none;
+		width: 100%;
+	}
+
+	.practice-one-page .user-quote {
+		padding-left: 45px;
+	}
+	.practice-one-page .user-quote .about-us-paragraph:after {
+		left: -40px;
+	}
+
+	.practice-details-page .practice-detail-container {
+		padding-bottom: 30px;
+		padding-top: 50px;
+	}
+
+	.practice-details-page .user-quote {
+		padding-left: 45px;
+	}
+	.practice-details-page  .user-quote .about-us-paragraph:after {
+		left: -40px;
+	}
+
+	.practice-listings-container {
+		padding-bottom: 30px;
+		padding-top: 50px;
+	}
+	.area-list-collection figure img {
+		width: 100%;
+	}
+
+	.social-media .basic-listing li {
+		margin-right: 5px;
+	}
+	.circle-list li a .fa-dot-circle-o {
+		left: -6px;
+	}
+
+	.circle-list li a {
+		padding-left: 21px;
+	}
+	.left-paging, .right-paging {
+		width: auto;
+		float: none;
+	}
+
+	.paginations-box .pagination li a.prev, .paginations-box .pagination li a.next {
+		min-width: 88px;
+	}
+
+	.paginations-box .pagination li a, .paginations-box .pagination li a span {
+		padding: 5px 8px;
+	}
+	.paginations-box .pagination li {
+		margin-bottom: 5px;
+	}
+	.clients-content {
+		padding-top: 45px;
+	}
+	.happy-clients {
+		padding-bottom: 30px;
+	}
+	.page-not-found {
+		padding-bottom: 45px;
+		padding-top: 60px;
+	}
+	.happy-clients .happy-client-state .about-us-paragraph:before {
+		left: -24px;
+	}
+	.vote-rating {
+		margin-top: 40px;
+	}
+	#footer .main-footer .block-right {
+		margin-bottom: 30px
+	}
+	#footer .get-theme, #footer .copy-right {
+		line-height: 21px;
+	}
+	#footer .practice-listing {
+		margin-top: 40px;
+	}
+	#footer .listing-continue {
+		margin-top: 64px;
+	}
+	#footer .listing-continue {
+		margin-top: 0;
+	}
+	.practice-one-page .practice-detail-container {
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+
+	.practice-one-page .practice-detail-box-3 {
+		padding-bottom: 0;
+	}
+	.practice-one-page .box-detail-right {
+		margin-bottom: 30px;
+	}
+	.consulation .consult-info {
+		padding-top: 0;
+	}
+	.featured-blog-descpt {
+		width: 162px;
+	}
+	.blog-details-page .leave-comment {
+		padding-bottom: 60px;
+	}
+	.history-content .video-container {
+		padding-bottom: 0;
+	}
+	.year-listing-block {
+		min-height: 0;
+	}
+	.our-history-year {
+		padding-bottom: 13px;
+	}
+}
+/*
+ 4) Mobile and Tablet
+ ----------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.homepage-2 .news-upadte-content {
+		min-height: 400px;
+		padding: 40px 30px;
+		background-size: cover;
+	}
+
+	/*CSS style for homepage start here*/
+
+	.banner-slider .layer3.slider-three-content {
+		top: 64% !important;
+	}
+	.banner-slider .slider-three-content h2 {
+		margin-top: 35% !important;
+	}
+	.banner-slider h2 {
+		margin-top: 70% !important;
+	}
+	.news-testimonial .testimonial-inner {
+		width: 320px;
+	}
+	.news-testimonial .tabing-listing {
+
+		margin-left: 12%;
+	}
+	.practice-area .family-law {
+
+		width: 50%;
+	}
+	.news figure, .news-testimonial .figure-description {
+		width: 100%;
+	}
+	.news-half {
+		width: 50%;
+	}
+	.news figure img {
+		width: 100%;
+	}
+	.about-us .attorney-listing figure {
+		height: auto;
+	}
+	.about-us #profile .attorney-listing {
+
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/*CSS style for Homepage End here*/
+	/*CSS style for attorney listing  start here*/
+	.attorney-listing-box {
+		width: 50%;
+	}
+	.attorney-listing-box h3 {
+		font-size: 13px;
+	}
+	.attorney-listing .label-text {
+		font-size: 11px;
+	}
+	.attorney-listing .media-listing li a {
+		font-size: 15px;
+	}
+	.attorney-listing .attorney-information .media-listing {
+		width: 72px;
+	}
+	.attorney-listing-page #footer {
+		border-top: 2px solid #e7ebf3;
+	}
+
+	/*CSS style for blog section Start here*/
+	.happy-client-list figure img {
+		width: auto;
+	}
+	.happy-client-list figure {
+		text-align: center;
+	}
+
+	/*CSS style for blog section End here*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.clients-content .clients-listing li {
+		margin: 0 auto 25px;
+		width: 25%;
+	}
+	.news-testimonial .user-testimonial {
+		background-size: cover;
+	}
+
+	.news-testimonial .owl-wrapper-outer {
+		padding-bottom: 20px;
+	}
+	.news-testimonial .user-image {
+		bottom: -20px;
+	}
+	.about-us .nav-tabs li {
+		padding-right: 30px;
+	}
+	.practice-area .section-header .practice-desp, .news-testimonial .practice-desp, .about-us .practice-desp, .client .practice-desp {
+		line-height: 1.5;
+		padding-top: 15px;
+		display: block
+	}
+
+}
+@media only screen and (max-width: 590px) {
+
+	.clients-content .clients-listing li {
+		margin: 0 auto 25px;
+		width: 33%;
+	}
+	.error-msg, .error-msg span {
+		font-size: 17px;
+	}
+	.blog-two-page .blog-listing {
+		width: 90% !important;
+	}
+
+}
+@media only screen and (max-width: 389px) {
+
+	.clients-content .clients-listing li {
+		margin: 0 auto 25px;
+		width: 50%;
+	}
+
+}
+
+/*Banner*/
+@media only screen and (max-width: 1024px) {
+	.homepage-2 .banner-slider .layer-b {
+		width: 34% !important;
+		top: 37% !important;
+	}
+	.homepage-2 .banner-slider .layer-c {
+		left: 70% !important;
+	}
+	#slider.top {
+		margin-top: 60px;
+	}
+	.banner-slider .layer1 {
+		top: 37% !important;
+	}
+	.banner-slider .layer3 {
+		top: 72% !important;
+		left: 56% !important;
+	}
+	.homepage-1 .banner-slider .btn-effect {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.banner-slider .layer-a {
+		top: 50% !important;
+	}
+	.banner-slider .layer-b {
+		top: 58% !important;
+	}
+	.banner-slider .layer-c {
+		top: 73% !important;
+		margin-left: -5px !important;
+	}
+	.banner-slider span {
+		margin-top: 0;
+	}
+	#slider.top {
+		margin-top: 60px;
+	}
+	.homepage-2 .banner-slider .layer-a {
+		top: 26% !important;
+	}
+	.homepage-2 .banner-slider .layer-b {
+		width: 58% !important;
+	}
+	.homepage-2 .banner-slider .h1, .homepage-2 .banner-slider h1 {
+		font-size: 42px;
+	}
+	.homepage-2 h1 span {
+		font-size: 20px;
+	}
+	.homepage-2 .banner-slider .layer-a, .homepage-2 .banner-slider .layer-b {
+		left: 36% !important;
+	}
+	.homepage-2 .banner-slider .layer-c {
+		left: 66% !important;
+	}
+	.homepage-2 .banner-slider .layer-c span {
+		font-size: 12px !important;
+		margin-bottom: 9px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.tparrows.preview2:after {
+		margin-top: -8px;
+	}
+	.banner-slider h2 {
+		margin-top: 0 !important;
+	}
+	.banner-slider .h1 {
+		font-size: 30px !important;
+	}
+	.banner-slider .btn-effect {
+		font-size: 10px;
+		padding: 10px;
+	}
+	.banner-slider .btn-effect img {
+		width: auto !important;
+		height: 20px !important;
+	}
+	.banner-slider span.text-slider-three, .homepage .banner-slider span {
+		width: 400px !important;
+	}
+
+	.banner-slider .layer-a {
+		top: 12% !important;
+	}
+	.banner-slider .layer-b {
+		top: 0 !important;
+	}
+	.banner-slider .layer-c {
+		top: 49% !important;
+		margin-left: 22px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	.tp-bullets {
+		display: none;
+	}
+	.banner-slider .h1 {
+		font-size: 30px !important;
+	}
+	.banner-slider .btn-effect {
+		font-size: 10px;
+		padding: 10px;
+	}
+	.banner-slider .btn-effect img {
+		width: auto !important;
+		height: 20px !important;
+	}
+	.banner-slider span.text-slider-three, .banner-slider span {
+		width: 280px !important;
+	}
+
+	.banner-slider .layer-a {
+		top: 20% !important;
+	}
+	.banner-slider .layer-b {
+		top: 22% !important;
+	}
+	.banner-slider .layer-c {
+		top: 48% !important;
+		margin-left: 22px;
+	}
+	.homepage-2 .banner-slider .layer-c {
+		left: 20% !important;
+	}
+	.homepage-2 .banner-slider .layer-d {
+		top: 70% !important;
+		left: 79% !important;
+	}
+}
+
+@media only screen and (max-height: 320px) {
+	.banner-slider .h1 {
+		font-size: 18px !important;
+	}
+	.banner-slider span, .banner-slider .p-text {
+		font-size: 12px !important;
+	}
+
+	.banner-slider .layer-a {
+		top: 15% !important;
+	}
+	.banner-slider .layer-b {
+		top: 32% !important;
+	}
+	.banner-slider .layer-c {
+		top: 57% !important;
+		margin-left: 22px;
+	}
+	.banner-slider .layer-c {
+
+		top: 75% !important;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	.banner-slider span.text-slider-three, .banner-slider span {
+		width: auto !important;
+	}
+
+	.banner-slider .layer-a {
+		top: 15% !important;
+	}
+	.banner-slider .layer-b {
+		top: 30% !important;
+	}
+	.banner-slider .layer-c {
+		top: 46% !important;
+		margin-left: 22px;
+	}
+	.homepage-2 .banner-slider .layer-a {
+		top: 6% !important;
+	}
+	.homepage-2 .banner-slider .layer-a, .homepage-2 .banner-slider .layer-b {
+		left: 30px !important;
+	}
+	.homepage-2 .banner-slider .layer-b {
+		width: 82% !important;
+		top: 28% !important;
+	}
+	.homepage-2 .banner-slider .slider-text {
+		font-size: 12px;
+	}
+	.homepage-2 .banner-slider .layer-d, .homepage-2 .banner-slider .layer-d img {
+		width: 40px !important;
+		height: 40px !important;
+	}
+	.homepage-2 .banner-slider .layer-c {
+		left: 37% !important;
+		top: 81% !important;
+	}
+	.homepage-2 .banner-slider .layer-d {
+		top: 77% !important;
+	}
+}
+

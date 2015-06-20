@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="128px" height="82px" viewBox="0 0 128 82" enable-background="new 0 0 128 82" xml:space="preserve">
+<g>
+	
+		<polyline class="stroke-color" fill="none" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		18,35.5 31,8.25 44,35.5 	"/>
+	
+		<polyline class="stroke-color" fill="none" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		84,35.5 97,8.25 110,35.5 	"/>
+</g>
+<g>
+	<path class="stroke-color" fill="none" stroke="#EE3135" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M110,35.5c0,7.18-5.82,13-13,13s-13-5.82-13-13H110z"/>
+	<path class="stroke-color" fill="none" stroke="#EE3135" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M44,35.5c0,7.18-5.82,13-13,13s-13-5.82-13-13H44z"/>
+</g>
+<line class="stroke-color" fill="none" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="27" y1="9" x2="101" y2="9"/>
+<g>
+	<path class="stroke-color" fill="#FFFFFF" d="M64,16c-3.499,0-6.482-2.613-6.94-6.078C57.021,9.623,57,9.313,57,9c0-3.86,3.141-7,7-7s7,3.14,7,7
+		S67.86,16,64,16z"/>
+	<path class="stroke-color change-fill" fill="#2B2A2F" d="M64,4c2.761,0,5,2.238,5,5s-2.238,5-5,5c-2.538,0-4.634-1.89-4.957-4.34C59.015,9.444,59,9.224,59,9
+		C59,6.238,61.239,4,64,4 M64,0c-4.963,0-9,4.038-9,9c0,0.398,0.026,0.799,0.079,1.189C55.666,14.64,59.502,18,64,18
+		c4.962,0,9-4.038,9-9S68.963,0,64,0L64,0z"/>
+</g>
+<g>
+	
+		<line class="stroke-color" fill="#FFFFFF" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="60" y1="16" x2="60" y2="64.834"/>
+	
+		<line class="stroke-color" fill="#FFFFFF" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="68" y1="16" x2="68" y2="64.834"/>
+</g>
+<line class="stroke-color" fill="none" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="40" y1="66" x2="88" y2="66"/>
+<path class="stroke-color" fill="none" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M58.438,72h-22c0,0,0.125,8.125,7.875,8.125s41.625,0,41.625,0S91.563,79.75,91.563,72H84"/>
+<g>
+	
+		<line class="stroke-color" fill="none" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="44" y1="66" x2="44" y2="72"/>
+	
+		<line class="stroke-color" fill="none" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84" y1="66" x2="84" y2="72"/>
+</g>
+<g>
+	
+		<line class="stroke-color" fill="none" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="31" y1="3.5" x2="31" y2="8.5"/>
+	
+		<line class="stroke-color" fill="none" stroke="#2B2A2F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="97" y1="3.5" x2="97" y2="8.5"/>
+</g>
+</svg>

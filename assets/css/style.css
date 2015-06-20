@@ -1,0 +1,3897 @@
+/*
+ * Theme v1.0.0
+ * Copyright 2015-2016 Theemon.com
+ */
+/*
+ Table Of Contents
+ 1.) Homepage
+ 1.1) Banner Section
+ 1.2) practice-area Section
+ 1.3) news-testimonial Section
+ 1.4) about-us Section
+ 1.5) client Info Section
+ 1.6) hiring-info Section
+ 2.) About-Us Page
+ 2.1) Banner Section
+ 2.2) our-practice-area Section
+ 2.3) our-principles Section
+ 3.) Attorney Detail Page
+ 3.1) our-practice-area Section
+ 3.2) attorney-detail-container Sectio
+ 3.3) Contact Him section
+ 3.4) consulation section
+ 4.) Attorney Listing Page
+ 4.1) attorney-listing Section
+ 5.) Attorney Listing one Page
+ 5.1) attorney-listing Section
+ 6.) Blog Page
+ 6.1) blog-content Section
+ 7.) blog-content-one Section
+ 8.) blog-two-page Section
+ 9.) clients-page Section
+ 10.) faq page
+ 10.1) faq-listing section
+ 11.)  history page
+ 11.1)  history-content section
+ 12.)  practice-one-page
+ 12.1)   practice-one-detail section
+ 13.) practice-details-page page
+ 13.1)  practice-details-page section
+ 14.) page-not-found section
+ 15.) practice-listings-container section
+ 16.) testimonial page section
+ 17.) ShortCode page
+ 17.1) Shortcode container section
+
+ ===============================================*/
+
+/*
+ 1.1) Banner Section
+ -----------------------------*/
+
+/*
+ 1.1) Banner Section
+ -----------------------------*/
+.homepage-2 #slider {
+	width: 100%;
+}
+#slider h1, #slider .h1 {
+	color: #fff;
+	font-weight: 900;
+}
+.homepage-2 .banner-slider {
+	position: relative;
+	width: 100%;
+}
+.homepage-2 h1 span {
+	display: block;
+	font-weight: 600;
+	font-size: 24px;
+}
+.homepage-2 .banner-slider  .slider-text {
+	font-size: 16px;
+	color: #ffffff;
+	font-style: italic;
+	font-family: Georgia, serif;
+	white-space: normal;
+	word-break: normal;
+	line-height: 1.6;
+}
+.homepage-2 .banner-slider  .tp-caption {
+	position: absolute;
+	left: 56% !important;
+}
+.homepage-2 .banner-slider  .layer-b {
+	width: 32% !important;
+}
+.homepage-2 .banner-slider  .layer-c {
+	left: 75% !important;
+	text-align: right;
+}
+.homepage-2 .boxed .banner-slider .layer-c {
+	margin-left: -40px !important
+}
+.homepage-2 .banner-slider  .layer-c span {
+	color: #fff;
+	display: block;
+	margin-bottom: 3px;
+}
+.homepage-2 .banner-slider  .layer-c a {
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.homepage-2 .banner-slider  .tp-simpleresponsive .tp-caption span.slider-text {
+	display: block;
+}
+.homepage-2 .banner-slider .btn-effect {
+	font-size: 13px;
+	color: #3d3c37;
+	border-radius: 40px;
+	line-height: 46px;
+	padding: 0 20px;
+	background: #f3de78;
+	min-width: 195px;
+	display: block;
+	margin-top: 80px;
+}
+.homepage-2 .banner-slider .layer-d {
+	width: 67px;
+	height: 67px;
+	border-radius: 100%;
+	overflow: hidden;
+	border: 3px solid #fff;
+	left: 83% !important;
+}
+.homepage-2 .banner-slider .layer-d img {
+	width: 66px !important;
+	height: 66px !important;
+}
+/*
+ 1.2) about-us section
+ -----------------------------*/
+.homepage-2 .about-us {
+	padding-top: 64px;
+	min-height: 612px;
+	background: #ffffff;
+	position: relative;
+	padding-bottom: 40px;
+}
+
+.homepage-2 .about-us .about-us-detail {
+	text-align: center;
+	position: relative;
+}
+.homepage-2 .about-us .icon-civil {
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.homepage-2 .about-us .about-us-details {
+	border-bottom: 1px solid #e9ecee;
+	margin: 8px auto 0;
+	padding-bottom: 29px;
+	width: 83%;
+}
+.homepage-2 .about-us .about-us-heading {
+	font-size: 16px;
+	color: #3f3d31;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.5;
+	margin-bottom: 25px;
+	display: block;
+}
+
+.homepage-2 .about-us .contact-details {
+	margin: 34px auto 0;
+	width: 500px;
+}
+
+.homepage-2 .about-us .phone-number {
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 700;
+	text-decoration: none;
+	min-width: 230px;
+	display: inline-block;
+	background: #b3a96c;
+	border-radius: 30px;
+	text-align: center;
+	padding: 9px 10px;
+}
+.homepage-2 .about-us  .contact-details > span {
+	font-size: 13px;
+	color: #44525a;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.homepage-2 .about-us  .contact-details .email-build {
+	margin-left: 4px;
+}
+.homepage-2 .about-us .seprate {
+	font-size: 13px;
+	color: #44525a;
+	text-transform: uppercase;
+	margin-left: 7px;
+}
+#slider.top {
+	margin-top: 88px;
+}
+#slider.top-m {
+	margin-top: 88px;
+}
+
+/*
+ 1.3) practice-area section
+ -----------------------------*/
+.homepage-2 .practice-area {
+	padding-top: 95px;
+	padding-bottom: 75px;
+	background: #f2f3f7;
+}
+
+.homepage-2 .practice-area .h3 {
+	position: relative;
+	line-height: 32px;
+	margin-bottom: 16px;
+}
+.homepage-2 .practice-area .h3:after {
+	width: 34px;
+	height: 1px;
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	display: block;
+	background: #b3a96c;
+}
+.homepage-2 .practice-area  .family-group {
+	margin-top: 31px;
+	margin-bottom: 0px;
+	min-height: 90px;
+	text-align: left;
+}
+
+.homepage-2 .practice-area .practice-law-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*
+ 1.4) client Info
+ -----------------------------*/
+
+.homepage-2 .client {
+	position: relative;
+	width: 100%;
+	padding: 81px 0 50px;
+	background: #ffffff;
+	min-height: 438px;
+}
+.homepage-2 .client .client-listing {
+	list-style: none;
+	margin-top: 10px;
+}
+.homepage-2 .client h2 {
+	margin-top: 12px;
+}
+.homepage-2 .client .section-header .about-tag {
+	margin-bottom: 8px;
+}
+.homepage-2 .client .client-listing li {
+	float: left;
+	margin-right: 5px;
+	min-height: 84px;
+	position: relative;
+	text-align: center;
+	width: 16%;
+}
+.homepage-2 .client .client-listing  li img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.homepage-2 .hiring-info-detail {
+	padding-top: 80px;
+	min-height: 275px;
+	padding-bottom: 40px;
+	background: #f2f3f7;
+}
+.homepage-2 .hiring-info-detail  .icon-civil {
+
+	float: left;
+	margin-top: 15px;
+}
+.homepage-2 .hiring-info-detail  .about-tag {
+
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #34424a;
+}
+.homepage-2 .hiring-info-detail .heading-hiring {
+	float: right;
+	width: 77%;
+}
+.homepage-2 .hiring-info-detail .heading-hiring .about-tag::after {
+	display: none;
+}
+.homepage-2 .hiring-info-detail .apply-section p {
+	padding-left: 40px;
+	font-size: 14px;
+	color: #869198;
+}
+.homepage-2 .hiring-info-detail .apply-section {
+	border-left: 1px solid #b3a96c;
+}
+.homepage-2 .btn-grey {
+	min-width: 165px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 45px;
+	font-size: 15px;
+	display: inline-block;
+	background: #b3a96c;
+	border-radius: 30px;
+	margin-top: 15px;
+	margin-left: 45px;
+	font-weight: 700;
+	text-decoration: none;
+	outline: none;
+}
+
+/*
+ 1.5) Attorney
+ -----------------------------*/
+.homepage-2 .attorney {
+	position: relative;
+	padding-top: 105px;
+	background: #ffffff;
+	min-height: 945px;
+	padding-bottom: 50px;
+}
+.homepage-2 .attorney .about-tag:after {
+	left: 0;
+	right: auto;
+}
+.homepage-2 .attorney h3 .status {
+	font-size: 14px;
+	color: #8f8d83;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.homepage-2 .attorney h3 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.homepage-2 .attorney .attorney-listing figure {
+	width: 100%;
+	height: 262px;
+	overflow: hidden;
+}
+
+.homepage-2 .attorney .about-tag {
+	margin-bottom: 42px;
+}
+.homepage-2 .news-update-block {
+	padding-left: 35px;
+}
+.homepage-2 .news-upadte-content {
+	min-height: 546px;
+	padding: 52px 58px;
+	background: url(../img/news-update.jpg) center top no-repeat;
+	margin-top: 10px;
+}
+.homepage-2 .news-listing-detail .left-block {
+	float: left;
+	width: 20%;
+}
+.homepage-2 .news-listing-detail .left-block > span {
+	font-size: 15px;
+	color: #ffffff;
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+}
+.homepage-2 .news-listing-detail .left-block span > span {
+	font-size: 36px;
+	color: #ffffff;
+	font-weight: 900;
+	display: block;
+}
+.homepage-2 .news-listing-detail .right-block {
+	float: right;
+	padding-top: 11px;
+	width: 72%;
+}
+.homepage-2 .news-listing-detail .right-block h5 {
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.homepage-2 .news-listing-detail .right-block p {
+	font-size: 14px;
+	color: #d4c7ba;
+	line-height: 1.8;
+}
+.homepage-2 .news-listing-detail .right-block .arrow-more {
+	margin-top: 16px;
+	border: 2px solid #ffffff;
+	padding: 6px 12px;
+}
+.homepage-2 .news-listing-detail .right-block .arrow-more .fa-angle-right {
+	color: #ffffff;
+}
+.news-listing-detail a i {
+	font-size: 22px;
+	position: relative;
+	top: -2px;
+}
+.news-listing-detail a:hover i {
+	color: #fff !important;
+}
+.homepage-2 .update-list-two {
+	margin-top: 68px;
+}
+
+/*
+ 1.6) testimonial section
+ -----------------------------*/
+
+.homepage-2 .testimonial {
+	background: #e4dfbe;
+	width: 100%;
+	position: relative;
+	padding-top: 110px;
+	min-height: 670px;
+	padding-bottom: 50px;
+}
+.homepage-2 .testimonial .testimonial-content {
+	text-align: center;
+	margin-top: 6px;
+}
+.homepage-2 .testimonial h2 {
+	margin-top: 10px;
+}
+.homepage-2 .testimonial .testimonial-detail {
+	color: #848172;
+	font-size: 16px;
+	font-style: italic;
+}
+.homepage-2 .testimonial .about-tag {
+	margin-bottom: 20px;
+}
+.homepage-2 .testimonial .side-colon {
+	position: relative;
+	padding: 20px 0px;
+}
+.homepage-2 .testimonial .side-colon:before {
+	position: absolute;
+	top: 0;
+	left: -30px;
+	width: 24px;
+	height: 24px;
+	content: "";
+	background: url(../img/sprites.png) -13px -74px no-repeat;
+}
+
+.homepage-2 .testimonial .side-colon:after {
+	background: url("../img/sprites.png") -13px -109px no-repeat;
+	bottom: -12px;
+	content: "";
+	height: 24px;
+	position: absolute;
+	right: -33px;
+	width: 24px;
+}
+.homepage-2 .testimonial-member {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.homepage-2 .testimonial .member-container {
+	width: 23%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 24px;
+}
+.homepage-2 .testimonial .member-pics {
+	float: left;
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	opacity: .5;
+}
+.homepage-2 .member-pics figure {
+	width: 72px;
+	height: 72px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.homepage-2 .testimonial .member-pics img {
+	width: 100%;
+}
+.homepage-2 .testimonial .member-content {
+	width: 63%;
+	float: left;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+.homepage-2 .testimonial .member-content span, .testimonial .member-content strong {
+	font-size: 14px;
+	color: #999988;
+	display: block;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.homepage-2 .testimonial .member-content strong {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+.homepage-2 .testimonial .member-container:hover .member-pics {
+	opacity: 1;
+}
+.homepage-2 .testimonial .member-container:hover .member-content strong, .homepage-2 .testimonial .member-container:hover .member-content span {
+	color: #3f3d31;
+}
+.homepage-2 .testimonial .owl-buttons {
+	display: none;
+}
+.homepage-2 .testimonial .owl-pagination {
+	margin-top: 40px;
+}
+.homepage-2 .testimonial .owl-theme .owl-controls .owl-page span {
+	background: #e4e2d7;
+	border: 2px solid #ffffff;
+}
+.homepage-2 .testimonial .owl-theme .owl-controls .owl-page.active span, .homepage-2 .testimonial .owl-theme .owl-controls .owl-page span:hover {
+
+	border: 2px solid #3f3d31;
+}
+/*
+ 1.7) Some common css for all section
+ -----------------------------*/
+
+.homepage-2 .about-tag {
+	font-size: 13px;
+	color: #44525a;
+	text-transform: uppercase;
+	font-weight: 400;
+	position: relative;
+	display: block;
+	margin-bottom: 35px;
+	font-family: 'Open Sans', sans-serif;
+}
+.homepage-2 .about-tag:after {
+	width: 34px;
+	height: 1px;
+	content: "";
+	position: absolute;
+	bottom: -19px;
+	right: 0px;
+	left: 0;
+	margin: 0 auto;
+	display: block;
+	background: #b3a96c;
+}
+.homepage-2  .arrow-more {
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	border: 1px solid #b3a96c;
+	display: block;
+	margin-top: 26px;
+	padding: 6px 15px;
+	text-align: center;
+}
+.homepage-2 .content-description {
+	color: #869198;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 29px;
+	margin: 0;
+}
+.attorney .attorney-listing a i {
+	font-size: 22px;
+	position: relative;
+	top: -1px;
+	left: -2px
+}
+.attorney .news-listing-detail a i {
+
+	top: -2px;
+	left: 0px
+}
+.attorney a:hover i {
+	color: #fff !important;
+}
+.homepage-2 .practice-area .section-header, .homepage-2  .testimonial .section-header, .homepage-2 .client .section-header {
+	text-align: center;
+}
+.homepage-2 .practice-area .section-header .icon-civil, .homepage-2 .testimonial .section-header .icon-civil, .homepage-2 .client .section-header .icon-civil {
+	margin: 0 auto;
+}
+.homepage-2 .practice-area .about-tag:after, .homepage-2 .testimonial .about-tag:after, .homepage-2 .client .about-tag:after {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+/*
+ 1.8) Owl carousal slider css
+ -----------------------------*/
+
+/*custom css for owl carousal*/
+.homepage-2 .attorney .attorney-listing img {
+	width: 100%;
+}
+.homepage-2 .attorney .attorney-listing {
+	padding-top: 7px;
+}
+
+.homepage-2 .attorney .owl-wrapper {
+	/*background: #ffffff;*/
+}
+.homepage-2 .attorney .owl-wrapper .owl-item {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.homepage-2 .attorney .owl-wrapper .owl-item:first-child {
+
+}
+.homepage-2 .attorney .owl-theme .owl-controls {
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: -70px;
+}
+.homepage-2 .attorney .owl-theme .owl-controls .owl-page span {
+	background: #ffffff;
+	border: 2px solid #b6b19a;
+}
+.homepage-2 .attorney .owl-theme .owl-controls .owl-page.active span {
+	border: 2px solid #f3de78;
+}
+.homepage-2  .owl-theme .owl-controls .owl-page span {
+
+	margin: 5px 2px;
+}
+
+/*
+ 1.2) practice-area section
+ -----------------------------*/
+.practice-area {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #ffffff;
+}
+.practice-area .section-header .practice-desp, .news-testimonial .practice-desp, .about-us .practice-desp, .client .practice-desp {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #79797a;
+	line-height: 45px;
+}
+.practice-area .h3 {
+	position: relative;
+	line-height: 30px;
+}
+.practice-area .h3:after {
+	width: 27px;
+	height: 2px;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	background: #b11f24;
+}
+.practice-area  .family-group {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 27px;
+	min-height: 90px;
+}
+.family-law a i {
+	font-size: 22px;
+	position: relative;
+	top: -1px;
+	left: -1px
+}
+.family-law a:hover i {
+	color: #fff !important;
+}
+.practice-area .family-law p {
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+.practice-area .more-btn {
+	font-size: 12px;
+	color: #ee3135;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.practice-area .practice-law-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*
+ 1.3)news-testimonial
+ ----------------------------*/
+.news-testimonial {
+	padding-top: 70px;
+	padding-bottom: 60px;
+	background: #ffffff;
+}
+.news-testimonial .testimonial {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.news-testimonial .practice-desp {
+	margin-bottom: 22px;
+	display: block;
+}
+
+.news-testimonial  .figure-description {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.news-testimonial .spacer-mobile figure {
+	width: 100%;
+	height: 198px;
+	overflow: hidden;
+}
+.news-testimonial .date, .news-testimonial .comment {
+	color: #2b2a2f;
+	font-weight: 600;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	position: relative;
+	display: block;
+	width: 50%;
+}
+.news-testimonial .comment {
+	float: right;
+	text-align: right;
+}
+.news-testimonial .date:after {
+	width: 27px;
+	height: 2px;
+	content: "";
+	position: absolute;
+	bottom: -12px;
+	left: 0;
+	display: block;
+	background: #b11f24;
+}
+.news-testimonial p, .tab-content p {
+	color: #79797a;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.news-testimonial .posted-law {
+	font-size: 12px;
+	color: #2b2a2f;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+}
+.news-testimonial .posted-law span {
+	color: #ee3135;
+}
+.fk-stars i {
+	color: #ee3135;
+	font-size: 16px;
+}
+.fk-stars i.star-bg {
+	color: #1f1e21 !important;
+}
+.news-testimonial .posted-law span:hover {
+	text-decoration: underline;
+}
+.news-testimonial .user-testimonial {
+	background: url(../img/testimonial-img.jpg) center top no-repeat;
+	padding-top: 60px;
+	position: relative;
+	min-height: 380px;
+}
+
+.news-testimonial .testimonial-inner {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.news-testimonial .testimonial-inner:before {
+	content: " “ ";
+	position: absolute;
+	right: -61px;
+	bottom: 0;
+	font-size: 386px;
+	height: 215px;
+	color: #40282d;
+	opacity: 0.2;
+}
+.news-testimonial  .testimonial-inner .h2 {
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: inherit;
+}
+.news-testimonial  .user-description {
+	font-size: 14px;
+	color: #a48a8a;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 18px;
+}
+.news-testimonial .testimonial-inner .user-name {
+	font-size: 14px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+.news-testimonial .fk-stars {
+	list-style: outside none none;
+	margin: 15px auto 20px;
+	position: relative;
+	width: 100px;
+}
+.news-testimonial .unfilled {
+	background: url("../img/unfilled-star.png") 0 0 no-repeat;
+	display: block;
+	height: 25px;
+}
+.news-testimonial .filled {
+	width: 70%;
+}
+.news-testimonial .rating {
+	background: url("../img/filled-star.png") 0 0 no-repeat;
+	display: block;
+	height: 25px;
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.news-testimonial .user-image {
+	position: relative;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.news-testimonial .owl-pagination {
+	list-style: none;
+	margin-top: -15px;
+	text-align: left !important;
+}
+.news-testimonial .owl-pagination .owl-page span, .news-testimonial .owl-theme .owl-controls .owl-page span {
+
+	width: 25px !important;
+	height: 5px !important;
+	background: #d5d4d5;
+	cursor: pointer;
+	display: block;
+	border-radius: 0 !important;
+	opacity: 1;
+}
+.news-testimonial .owl-theme .owl-controls .owl-page:hover span {
+	opacity: 1 !important;
+}
+.news-testimonial .owl-pagination .owl-page.active span, .news-testimonial .owl-theme .owl-controls .owl-page.active span {
+	background: #ee3135;
+}
+/*
+ 1.4) about-us
+ -----------------------------*/
+.about-us {
+	padding-top: 60px;
+	position: relative;
+	background: #f5f5f6;
+	min-height: 1065px;
+}
+.about-us .section-header {
+	padding-bottom: 18px;
+}
+.about-us .tabing-section {
+	border-bottom: 1px solid #e0e0e1;
+}
+.about-us .nav-tabs {
+	border: none;
+}
+.about-us .nav-tabs li {
+	position: relative;
+	margin: 0;
+	padding-right: 40px;
+}
+.about-us .nav-tabs li:hover {
+	background: none;
+}
+.about-us .nav-tabs a {
+	font-size: 16px;
+	color: #79797a;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.about-us .nav-tabs .active a, .about-us .nav-tabs .active a:hover, .about-us .nav-tabs .active a:active {
+	color: #2b2a2f;
+	border: none;
+	outline: none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a, .nav-tabs > li > a:hover {
+	background: none;
+	border: none;
+	outline: none;
+}
+.about-us .nav-tabs li:after, .about-us .attorney-listing h2.at-h2:after {
+	background: #79797a;
+	bottom: -2px;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 15px;
+	position: absolute;
+	width: 27px;
+}
+.about-us .nav-tabs li.active:after, .about-us .nav-tabs lihover:after, .about-us .nav-tabs li:hover:after, .about-us .attorney-listing h2.at-h2:hover:after {
+	background: #b11f24;
+}
+.about-us .tab-content {
+	margin-top: 38px;
+}
+.about-us .moment h2 {
+	font-size: 30px;
+	color: #2b2a2f;
+	font-weight: 400;
+	margin-bottom: 24px;
+}
+.about-us .moment, .about-us .moment-right {
+	width: 390px;
+	float: right;
+	text-align: right;
+	margin-top: 70px;
+}
+.about-us .moment figure {
+	width: 100%;
+	height: 207px;
+	overflow: hidden;
+}
+.about-us .moment span, .seprater span {
+	font-size: 13px;
+	color: #777777;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+.about-us  #home {
+	position: relative;
+}
+.about-us .block-box {
+	margin-bottom: 30px;
+}
+.about-us .seprater span {
+	color: #2b2a2f;
+}
+.about-us .moment-right {
+	float: left;
+	text-align: left;
+	margin-top: 88px;
+}
+
+.about-us .seprater {
+	position: relative;
+	top: 190px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	min-height: 612px;
+	text-align: center;
+}
+.about-us .seprater:after {
+	content: "";
+	width: 2px;
+	height: 90%;
+	position: absolute;
+	background: #b6b5bc;
+	top: 58px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.about-us .seprater span.small-circle, .about-us .seprater span.large-circle {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: #f5f5f6;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border: 2px solid #b8b7bd;
+	display: block;
+	z-index: 99;
+	box-shadow: 0 0 0 4px #e2e2e4;
+}
+.about-us .seprater span.large-circle {
+	width: 25px;
+	height: 25px;
+	top: 58%;
+}
+
+.about-us .arrow-down {
+	width: 25px;
+	height: 25px;
+	background: #f5f5f6;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: block;
+	z-index: 99;
+}
+.about-us .arrow-down i {
+	color: #b6b5bc;
+	font-size: 13px;
+	line-height: 5px;
+	margin-bottom: 2px;
+	display: block;
+}
+.about-us .arrow-down {
+	text-decoration: none;
+}
+.about-us .attorney-listing h2.at-h2 {
+	color: #2b2a2f;
+	font-weight: 600;
+	margin-top: 30px;
+	text-transform: capitalize;
+	position: relative;
+}
+.about-us .attorney-listing h2.at-h2:after {
+	top: -12px;
+	bottom: auto;
+	background: #b11f24;
+	left: 0;
+}
+.about-us .attorney-listing h2.at-h2 span {
+	color: #79797a;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 8px;
+}
+.about-us #profile {
+	margin-top: 58px;
+}
+.about-us .media-listing {
+	margin-top: 30px;
+}
+.about-us .attorney-listing figure {
+	width: 100%;
+	height: 262px;
+	overflow: hidden;
+}
+.about-us a.more-btn:hover, .about-us a.more-btn:focus {
+	color: #ee3135;
+}
+
+/*
+ 1.5) client Info
+ -----------------------------*/
+
+.client {
+	position: relative;
+	width: 100%;
+	padding: 55px 0 84px;
+	background: #f5f5f6;
+}
+.client .client-listing {
+	list-style: none;
+	margin-top: 54px;
+}
+.client .client-listing  li {
+	float: left;
+	margin-right: 20px;
+	min-height: 84px;
+	width: 18%;
+	position: relative;
+	text-align: center;
+}
+.client .client-listing  li img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+/*
+ 1.6) hiring-info
+ -----------------------------*/
+.hiring-info {
+	padding: 55px 0;
+	background: url(../img/footer-top-back.jpg) center top no-repeat
+}
+
+.hiring-info h2.long-heading {
+	font-size: 34px;
+	color: #ffffff;
+	font-weight: 600;
+	text-transform: inherit;
+	margin-bottom: 10px;
+}
+.hiring-info .hiring-detail {
+	font-size: 14px;
+	color: #a48a8a;
+	font-family: 'Open Sans', sans-serif;
+	width: 90%;
+}
+.hiring-info .btn-footer {
+	color: #ffffff;
+	border: 1px solid #ee3135;
+	line-height: 45px;
+	min-width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	margin-top: 26px;
+}
+.hiring-info .btn-footer i {
+	font-size: 9px;
+	position: relative;
+	top: -2px;
+}
+.more-btn.btn-footer:hover {
+	color: #fff !important;
+}
+/*
+ 2.1) Banner Section
+ -----------------------------*/
+
+#slider.banner-one .about-banner {
+	position: relative;
+	width: 100%;
+	min-height: 250px;
+	background: url(../img/banner-1.jpg) center top no-repeat;
+	background-size: cover;
+}
+#slider.banner-two .about-banner {
+	position: relative;
+	width: 100%;
+	min-height: 250px;
+	background: url(../img/banner-2.jpg) center top no-repeat;
+	background-size: cover;
+}
+#slider.banner-three .about-banner {
+	position: relative;
+	width: 100%;
+	min-height: 250px;
+	background: url(../img/banner-3.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+#slider .about-banner {
+	position: relative;
+	width: 100%;
+	min-height: 250px;
+	background: url(../img/about-us-banner.jpg) center top no-repeat;
+	background-size: cover;
+}
+#slider .about-banner h1 {
+	font-size: 60px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+#slider .banner-text {
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	right: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+/*
+ 2.2) Our-Attorney
+ -----------------------------*/
+.our-attorney {
+	padding-top: 105px;
+	min-height: 540px;
+	padding-bottom: 50px;
+}
+.heading-details {
+	font-size: 14px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 36px;
+	display: block;
+}
+
+/*
+ 2.3) our-principles
+ -----------------------------*/
+.our-principles {
+	padding-top: 90px;
+	background: #f5f5f6;
+	min-height: 410px;
+	padding-bottom: 40px;
+}
+.our-principles .index-box {
+	width: 69px;
+	height: 60px;
+	border: 2px solid #2b2a2f;
+	float: left;
+	text-align: center;
+	padding-top: 15px;
+	margin-right: 28px;
+	position: relative;
+}
+.our-principles .index-box span {
+	color: #ee3135;
+	font-size: 24px;
+	font-weight: 700;
+}
+.our-principles .index-box:after {
+	margin-top: -10px;
+	position: absolute;
+	right: -17px;
+	top: 50%;
+	border-left: 10px solid #f5f5f6;
+	border-right: 10px solid transparent;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	content: "";
+	display: block;
+}
+.our-principles .index-box:before {
+	margin-top: -10px;
+	position: absolute;
+	right: -20px;
+	top: 50%;
+	border-left: 10px solid #2b2a2f;
+	border-right: 10px solid transparent;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	content: "";
+	display: block;
+}
+
+.our-principles .principles-box {
+	margin-top: 25px;
+}
+
+.our-principles .principles-detail {
+	float: left;
+	width: 70%;
+}
+
+/*
+ 3.1) our-practice-area
+ -----------------------------*/
+.our-practice-area {
+	padding-top: 90px;
+	min-height: 640px;
+	background: #ffffff;
+}
+.panel-group .panel-heading {
+	border: none;
+	background: none;
+}
+.panel-group .panel {
+	border-radius: 0;
+	border: 1px solid #e3e3e7;
+	border-top: none;
+	padding-left: 25px;
+}
+.panel-group .panel:first-child {
+	border-top: 1px solid #e3e3e7;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border: none;
+}
+.panel-group .panel + .panel {
+	margin-top: 0;
+}
+.our-practice-area #accordion {
+	margin-top: 31px;
+}
+h3.panel-title a {
+	font-size: 16px;
+	font-weight: 600;
+	color: #2b2a2f;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 16px 0;
+	display: block;
+	outline: none;
+	position: relative;
+}
+h3.panel-title a .fa-angle-up, h3.panel-title a .fa-angle-down {
+	opacity: 0;
+}
+h3.panel-title a.collapsed .fa-angle-up {
+	position: absolute;
+	top: 15px;
+	right: 24px;
+	font-size: 24px;
+	color: #2b2a2f;
+	display: block;
+	opacity: 1;
+	font-weight: 600;
+	transition: opacity .4s ease;
+}
+h3.panel-title a .fa-angle-down {
+	position: absolute;
+	top: 15px;
+	right: 24px;
+	font-size: 24px;
+	color: #ee3135;
+	display: block;
+	opacity: 1;
+	font-weight: 600;
+	transition: opacity .4s ease;
+}
+h3.panel-title a.collapsed .fa-angle-down {
+	opacity: 0;
+}
+.panel-heading {
+	padding: 0;
+}
+.panel-body {
+	float: left;
+	width: 80%;
+	margin-top: 0;
+	padding-top: 0;
+	line-height: 1.5;
+}
+.panel-pics {
+	float: left;
+	width: 20%;
+}
+
+.our-services .practice-listing {
+	list-style: outside none none;
+	margin-top: 32px;
+}
+.our-services .practice-listing  .fa-chevron-right {
+	transform: translateX(-2px);
+	-webkit-transform: translateX(-2px);
+	-ms-transform: translateX(-2px);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.our-services .practice-listing li a:hover .fa-chevron-right {
+	transform: translateX(2px);
+	-webkit-transform: translateX(2px);
+	-ms-transform: translateX(2px);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.our-services .practice-listing li {
+	margin-bottom: 23px;
+}
+.our-services .practice-listing li a {
+	color: #79797a;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.our-services .practice-listing li a:hover, .our-services .fa-chevron-right:hover {
+	color: #b11f24;
+	outline: none;
+}
+.our-services .fa-chevron-right {
+	float: right;
+	font-size: 8px;
+	margin-top: 5px;
+}
+
+.about-us-page #footer .top-footer {
+	background: #e7ebf3;
+}
+
+/*
+ 3.2) attorney-detail-container
+ -----------------------------*/
+
+.attorney-detail-container {
+	padding-top: 105px;
+	padding-bottom: 90px;
+}
+.attorney-detail-container .detail-info-block {
+	margin-top: 15px;
+}
+.attorney-detail-container .contact-education {
+	padding: 40px;
+	background: #f5f5f6;
+	position: relative;
+}
+.attorney-detail-container .contact-education:after {
+	content: "";
+	position: absolute;
+	top: -32px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-bottom: 16px solid #f5f5f6;
+	border-top: 16px solid transparent;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	width: 32px;
+	height: 32px;
+}
+.attorney-detail-container .contact-him {
+	width: 34%;
+	float: left;
+}
+.attorney-detail-container .attorney-detail-container h3 {
+	font-weight: 700;
+	font-size: 17px;
+	margin-bottom: 35px;
+}
+.attorney-detail-container .education {
+	width: 66%;
+	float: left;
+}
+.attorney-detail-container .call {
+	display: block;
+	font-size: 13px;
+	color: #2b2a2f;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	margin-top: 10px;
+	font-weight: 600;
+}
+.attorney-detail-container .mail {
+	margin-top: 10px;
+}
+.attorney-detail-container .call a {
+	color: #79797a;
+	padding-left: 5px;
+}
+.attorney-detail-container .social-label {
+	display: inline-block;
+	float: left;
+}
+.attorney-detail-container .social .media-listing {
+	display: inline-block;
+	margin-top: 5px;
+	float: left;
+	margin-left: 10px;
+}
+.attorney-detail-container .social .media-listing li a {
+	font-size: 13px;
+	color: #79797a;
+}
+.attorney-detail-container .attorney-detail-para {
+	margin-top: 50px;
+}
+.attorney-detail-container .para-spacer {
+	margin-top: 29px;
+}
+
+.vote-rating {
+	margin-top: 62px;
+}
+
+.attorney-detail-container .underline-label:after {
+	/*bottom: 0;*/
+	bottom: -10px;
+}
+.voting-status {
+	margin-bottom: 20px;
+}
+.excellent {
+	display: block;
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 10px;
+	position: relative;
+	text-transform: capitalize;
+}
+
+.progress {
+	background: #f1f1f1;
+	height: 10px;
+	border-radius: 0;
+}
+.progress-bar {
+	background: #ee3135;
+	position: relative;
+}
+.excellent span {
+	position: absolute;
+	top: 0px;
+	left: 85%;
+	font-size: 13px;
+	color: #2b2a2f;
+}
+.average span {
+	left: 35%;
+}
+.good span {
+	left: 75%;
+}
+.attorney-detail-container .fk-stars {
+	margin: 0;
+}
+
+/*
+ 3.3) Contact Him
+ -----------------------------*/
+.contact-form {
+	background: #f5f5f6;
+	width: 100%;
+	position: relative;
+	padding-top: 90px;
+	min-height: 660px;
+	padding-bottom: 50px;
+}
+.contact-form .container {
+	position: relative;
+}
+.contact-form .underline-label:after {
+	/*bottom: 0;*/
+	bottom: -10px;
+}
+
+.form-block input, .form-block textarea {
+	background: #ffffff;
+	border: 1px solid #e6e6ec;
+	line-height: 40px;
+	height: 44px;
+	padding-left: 22px;
+	padding-right: 22px;
+	width: 100%;
+	margin-bottom: 10px;
+	display: block;
+	text-transform: capitalize;
+	font-size: 13px;
+	color: #a1a1a6;
+	font-family: 'Open Sans', sans-serif;
+}
+.form-block textarea {
+	min-height: 192px;
+	resize: none;
+	margin-bottom: 20px;
+}
+
+.detail-submit {
+	line-height: 40px;
+	border: 2px solid #2b2a2f;
+	min-width: 122px;
+	background: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #ee3135;
+	display: block;
+	font-weight: 700;
+	height: 44px;
+	text-decoration: none;
+}
+.detail-submit:hover {
+	text-decoration: none;
+	color: #ffffff !important;
+}
+#success {
+	display: none;
+	left: 0;
+	position: absolute;
+	top: -48px;
+}
+
+/*
+ 3.4) consulation
+ -----------------------------*/
+.consulation {
+	padding: 35px 0;
+	background: url("../img/footer-top-back.jpg") center top no-repeat;
+	background-size: cover;
+}
+.consulation .consult-info {
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: right;
+	display: block;
+	padding-top: 30px;
+}
+
+.consulation .contact-consult {
+	font-size: 60px;
+	color: #ffffff;
+	font-weight: 300;
+	text-decoration: none;
+	outline: none;
+	text-align: center;
+	display: block;
+	border-right: 1px solid #60484e;
+	border-left: 1px solid #60484e;
+	padding-left: 10%;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.consulation .icon-consult {
+	width: 40px;
+	height: 60px;
+	display: inline-block;
+	background: none;
+	background-repeat: no-repeat;
+	background-position: 0 -74px;
+	position: absolute;
+	left: 35px;
+}
+.consulation .icon-consult.fa-mobile {
+	font-size: 76px;
+	top: 17px;
+}
+.consulation .week-time span {
+	display: block;
+}
+.consulation .week-time {
+	text-align: left;
+}
+
+.contact-form-form .container {
+	position: relative;
+}
+#map {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.bin {
+	display: inline-block;
+	position: relative;
+}
+input.error {
+	border-color: #ff0000 !important;
+}
+#success {
+	display: none;
+	position: absolute;
+	top: -48px;
+	left: 0;
+}
+.bin .fa-times {
+	bottom: -5px;
+	font-size: 32px;
+	position: absolute;
+	right: 9px;
+}
+.map.embed-responsive.embed-responsive-16by9 {
+	padding-bottom: 0;
+	height: 335px;
+}
+.gmnoprint, .gm-style-cc {
+	display: none;
+}
+.mapmarker {
+	font-size: 60px;
+	top: -20px !important;
+	position: relative;
+}
+/*
+ 4.1) attorney-listing Section
+ -----------------------------*/
+.attorney-listing {
+	/*padding-top: 96px;
+	 padding-bottom: 90px;
+	 background: #ffffff;*/
+	position: relative;
+}
+.attorney-listing-page .attorney-listing {
+	padding-top: 96px;
+	padding-bottom: 90px;
+	background: #ffffff;
+}
+.attorney-listing .attorney-name-label {
+	float: left;
+	width: 60%;
+}
+
+.attorney-listing .attorney-information {
+	margin-top: 30px;
+}
+.attorney-listing .consult-btn:hover {
+	text-decoration: none;
+}
+.attorney-listing .attorney-information .media-listing {
+	float: right;
+	width: 80px;
+	margin-top: 5px;
+}
+.attorney-listing .attorney-information .media-listing li {
+	margin-left: 8px;
+	margin-right: 0;
+}
+.attorney-listing .label-text {
+	font-size: 14px;
+	color: #79797a;
+	display: block;
+	line-height: 1.5;
+}
+.attorney-listing .more-btn .fa-chevron-right {
+	font-size: 8px;
+	position: absolute;
+	right: -8px;
+	top: 4px;
+}
+#profile .more-btn .fa-chevron-right {
+	top: 5px;
+}
+
+.about-us .more-btn i {
+	font-size: 9px;
+	position: relative;
+	top: 0;
+}
+.attorney-listing .attorney-listing-box {
+	margin-top: 30px;
+	padding-bottom: 24px;
+}
+.attorney-listing .attorney-listing-box figure {
+	overflow: hidden;
+}
+.attorney-listing-page .attorney-listing-box p {
+	color: #79797A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+/*
+ 5.1) attorney-listing-one Section
+ -----------------------------*/
+.attorney-listing-one-page .attorney-listing {
+	background: none repeat scroll 0 0 #FFFFFF;
+	padding-bottom: 90px;
+	padding-top: 96px;
+}
+.attorney-listing-one-page .attorney-listing-box figure {
+	width: 164px;
+	height: 164px;
+	border-radius: 50%;
+	float: left;
+	-webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+}
+.attorney-listing-one-page .info-outer-container {
+	width: 65%;
+	float: right;
+}
+.attorney-listing-one-page .attorney-listing .attorney-information {
+	margin-top: 20px;
+}
+
+/*
+ 6.1) blog-content Section
+
+ -----------------------------*/
+.blog-content {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.blog-content .heading-details {
+	margin-bottom: 15px;
+}
+.blog-comment li {
+	min-height: 30px;
+	min-width: 80px;
+	border-radius: 20px;
+	background: #f6c543;
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+}
+.blog-comment li a {
+	display: block;
+	padding: 4px 15px;
+	outline: none;
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.blog-listing-pics {
+	position: relative;
+	width: 387px;
+	float: left;
+}
+.blog-listing-pics figure {
+	overflow: hidden;
+}
+.blog-page .more-btn:hover {
+	color: #fff !important;
+}
+.blog-listing {
+	border: 1px solid #eaeaee;
+	margin-bottom: 35px;
+}.
+blog-comment li {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.blog-comment li:hover {
+	opacity: 0.8;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.blog-comment li.heart-status {
+	background: #95c5f7;
+}
+.blog-comment li.share-box {
+	background: #f1959c;
+}
+.blog-comment {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 35px;
+	width: 72%;
+	text-align: center;
+}
+.blog-information {
+	width: 430px;
+	float: right;
+}
+.blog-information {
+	padding-top: 50px;
+}
+#grid .blog-information {
+	padding-top: 22px;
+}
+.blog-information h3 {
+	font-size: 17px;
+	color: #2b2a2f;
+	font-weight: 700;
+}
+.blog-information h3 a {
+	color: #2b2a2f;
+}
+.blog-information h3 a:hover {
+	text-decoration: underline;
+}
+.blog-admin-info span {
+	color: #79797a;
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.blog-admin-info span.admin {
+	margin-right: 8px;
+	border-right: 1px solid #79797a;
+	padding-right: 8px
+}
+.blog-page p {
+	color: #79797A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.blog-content p {
+	margin-top: 40px;
+}
+.blog-content .blog-information .more-btn {
+	font-weight: 500;
+	border: 1px solid #63606d;
+	min-width: 115px;
+	height: 38px;
+	line-height: 37px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 25px;
+}
+.blog-outer {
+	position: relative;
+}
+.blog-search {
+	margin-bottom: 46px;
+}
+.blog-search-box {
+	width: 100%;
+	border: 1px solid #e9e9ee;
+	height: 42px;
+	font-size: 13px;
+	color: #aeaebe;
+	padding-left: 20px;
+	text-transform: capitalize;
+}
+
+.add-on {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	background: none;
+	border: none;
+	width: 30px;
+	height: 30px;
+}
+.add-on i {
+	font-size: 15px;
+	color: #2b2a2f;
+}
+.featured-blog-list {
+	list-style: none;
+}
+
+.featured-blog-list li figure {
+	width: 97px;
+	float: left;
+	overflow: hidden;
+}
+.featured-blog-list li {
+	padding-bottom: 31px;
+	padding-top: 26px;
+	border-top: 1px solid #e9e9ee;
+}
+.featured-blog-list li:first-child {
+	border: none;
+	padding-top: 0px;
+}
+.featured-blog-descpt {
+	float: right;
+	width: 150px;
+	padding-top: 6px;
+}
+.featured-blog-descpt h5 a {
+	color: #2B2A2F;
+}
+.featured-blog-descpt > a {
+	text-decoration: none;
+	outline: none;
+}
+.featured-blog-descpt span {
+	font-size: 13px;
+	color: #9c9ca7;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	line-height: 1.6;
+}
+.blog-content .featured-blog-descpt p {
+	margin-top: 8px;
+	width: 100%;
+}
+.follow-us {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.blog-content .tags {
+	margin-top: 54px;
+}
+.blog-content .tags .tag-list {
+	padding-top: 1px;
+	margin-left: -5px;
+}
+.blog-content .follow-us .heading-details {
+	margin-bottom: 12px;
+}
+.follow-us-list li {
+	width: 78px;
+	min-height: 125px;
+	background: #0253a2;
+	text-align: center;
+	list-style: none;
+	padding-top: 12px;
+	float: left;
+	margin-left: 12px;
+}
+.follow-us-list li:first-child {
+	margin-left: 0;
+}
+.follow-us-list li.twitter-block {
+	background: #2daae4;
+}
+.follow-us-list li.twitter-block a, .follow-us-list li a {
+	border: 1px solid #43b9f0;
+	text-decoration: none;
+	outline: none;
+}
+.follow-us-list li.plus-block {
+	background: #d6492f;
+}
+.follow-us-list li.plus-block a {
+	border: 1px solid #e8644c;
+}
+.follow-us-list li a {
+	display: block;
+	width: 47px;
+	height: 47px;
+	border-radius: 50%;
+	border: 1px solid #0d65bb;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	font-size: 22px;
+	color: #ffffff;
+	padding-top: 13px;
+}
+.follow-us-list li span {
+	font-size: 11px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+}
+
+.tags .tag-list li {
+	border: 1px solid #E9E9EE;
+	float: left;
+	height: 38px;
+	list-style: none outside none;
+	margin-bottom: 10px;
+	margin-left: 7px;
+	min-width: 60px;
+	padding: 0 17px;
+}
+
+.tags .tag-list li a {
+	color: #2b2a2f;
+	font-size: 12px;
+	color: #2b2a2f;
+	text-transform: uppercase;
+	display: block;
+	line-height: 35px;
+	text-align: center;
+	font-weight: 500;
+	text-decoration: none;
+	outline: none;
+}
+
+.blog-details-page .user-detail-header .media-selection .media-select option .fb-con {
+	background: red;
+	display: block;
+}
+/*
+ 7.1) blog-content-one Section
+
+ -----------------------------*/
+.blog-one-page .blog-listing-pics {
+	width: auto;
+	float: none;
+}
+
+.blog-one-page .blog-information {
+	float: none;
+	width: auto;
+}
+.blog-one-page .blog-listing {
+	border: 0;
+	margin-bottom: 45px;
+}
+.blog-one-page .blog-content .about-us-paragraph {
+	width: 100%;
+}
+
+.blog-one-page .blog-admin-info span, .blog-one-page .blog-admin-info li, .blog-one-page .blog-admin-info li a {
+	color: #79797A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.blog-one-page .blog-admin-info li {
+	float: left;
+	list-style: none;
+	padding: 0px 10px;
+	line-height: 1;
+	margin-top: 10px;
+}
+.blog-admin-info li.admin {
+	border-right: 1px solid #bcc0d1;
+	margin-right: 8px;
+	padding-right: 8px;
+}
+/*
+ 8) blog-two-page Section
+
+ -----------------------------*/
+
+.blog-two-page .blog-two-listing {
+	margin-left: -30px;
+}
+.blog-two-page .blog-listing {
+	width: 260px;
+	float: left;
+	padding: 10px;
+	margin-left: 30px;
+}
+.blog-two-page .blog-listing-pics, .blog-two-page .blog-information {
+	width: auto;
+	float: none;
+}
+
+.blog-two-page .blog-comment {
+
+	position: static;
+	text-align: center;
+	width: auto;
+}
+.blog-two-page .blog-content .about-us-paragraph {
+	width: auto;
+	margin-top: 8px;
+	padding-right: 10px;
+}
+.blog-two-page .blog-content .about-us-paragraph .fa-chevron-right {
+	font-size: 13px;
+	color: #e81f26;
+}
+.blog-two-page .blog-comment {
+	border-top: 1px solid #eaeaee;
+	margin-top: 20px;
+}
+.blog-two-page .blog-comment li {
+	background: none;
+	border-radius: 0;
+	float: left;
+	list-style: none outside none;
+	margin-right: 0px;
+	min-width: 70px;
+	padding: 14px 0px;
+}
+
+.blog-two-page .blog-comment li a {
+	color: #79797a;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	outline: medium none;
+	padding: 0px 10px 0px 0px;
+	text-decoration: none;
+}
+.blog-two-page .blog-comment li a.rightline {
+	border-right: 1px solid #8b8b8c;
+}
+
+/*
+ 8.) blog-details-page Section
+
+ -----------------------------*/
+.blog-details-page .blog-listing {
+	padding-bottom: 10px;
+	margin-bottom: 28px;
+}
+.blog-details-page .blog-listing-pics {
+
+	float: none;
+	position: relative;
+	width: auto;
+}
+.blog-details-page .blog-information {
+	float: none;
+	padding-left: 40px;
+	padding-top: 42px;
+	width: auto;
+}
+
+.blog-details-page .underline-label:after {
+	bottom: -18px;
+}
+.blog-details-page .underline-label {
+	margin-bottom: 40px;
+}
+
+.blog-details-page .blog-content p {
+	width: auto;
+	padding-right: 38px;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+.blog-details-page .blog-content p {
+	color: #79797A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.blog-details-page .pagination-list {
+	list-style: none;
+	margin-top: 34px;
+	padding: 26px 0px 13px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-top: 1px solid #eaeaee;
+}
+
+.blog-details-page .pagination-list li {
+	float: left;
+	padding: 5px 0 5px 4px;
+	margin-right: 17px;
+}
+.line {
+	border-right: 1px solid #eaeaee;
+}
+.blog-details-page .pagination-list li a {
+	font-size: 12px;
+	color: #2b2a2f;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	padding-right: 20px;
+}
+.blog-details-page .pagination-list li a .fa-chevron-left, .blog-details-page .pagination-list li a .fa-chevron-right {
+	font-size: 10px;
+	color: #e81f26;
+}
+
+.blog-details-page .blog-user-info {
+	position: relative;
+	border: 1px solid #eaeaee;
+	padding: 35px 18px 49px 40px;
+}
+.blog-page.blog-details-page .blog-user-info {
+	background: #f5f6f9;
+}
+
+.blog-details-page .blog-user-info figure {
+	float: left;
+	width: 129px;
+	height: 129px;
+	display: block;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.blog-details-page .name-user-info h3 {
+	font-size: 15px;
+	color: #000000;
+	font-weight: 700;
+}
+.blog-details-page .name-user-info {
+	padding-top: 15px;
+}
+.blog-details-page .social-icons {
+	border: none;
+	padding: 0;
+	background: #fff;
+}
+.blog-details-page .facebook_icon {
+	background: #0253a2;
+	color: #fff;
+	width: 33px;
+	height: 36px;
+	font-size: 20px !important;
+	text-align: center;
+}
+.blog-details-page .social-icons:hover a {
+	text-decoration: none;
+}
+.blog-details-page .arrow {
+	height: 19px;
+	width: 16px;
+}
+.user-blog-detail .dropdown-menu {
+	min-width: 0;
+	border-radius: 0;
+	left: auto;
+	right: 9px;
+	width: 66px;
+	padding: 0;
+}
+.blog-details-page .arrow .fa-angle-down {
+	color: #9294aa;
+}
+.blog-details-page .facebook_icon .fa-facebook {
+	color: #FFFFFF;
+	position: relative;
+	top: 2px
+}
+.blog-details-page .facebook_icon {
+
+}
+.blog-details-page .name-user-info span {
+	line-height: 1.6;
+	font-weight: 500;
+}
+.blog-details-page .user-blog-detail {
+	float: right;
+	width: 78%;
+}
+.blog-details-page .user-blog-detail p {
+	margin-top: 15px;
+	padding: 0;
+}
+.blog-details-page .user-blog-detail .more-btn {
+	font-size: 12px;
+	color: #2b2a2f;
+	font-weight: 700;
+	margin-top: 20px;
+	display: block;
+}
+.blog-details-page .user-blog-detail .more-btn .fa-chevron-right {
+	font-size: 8px;
+	color: #e81f26;
+	position: relative;
+	top: -1px;
+}
+.blog-details-page .user-blog-detail .more-btn {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.blog-details-page .user-blog-detail .more-btn:hover .fa-chevron-right {
+	transform: translateX(5px);
+	-webkit-transform: translateX(5px);
+	-ms-transform: translateX(5px);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.blog-details-page .user-detail-header {
+	position: relative;
+}
+.blog-details-page .user-detail-header .media-selection {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.blog-details-page .user-detail-header .media-selection span {
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	margin-right: 7px;
+	line-height: 34px;
+}
+.blog-details-page .user-detail-header .media-selection .media-select {
+	width: 60px;
+	height: 34px;
+}
+
+.blog-details-page .comment-blog-listing {
+	margin-top: 72px;
+}
+.blog-details-page .comment-blog-listing .heading-details {
+	line-height: 30px;
+}
+
+.blog-details-page .comment-blog-listing .underline-label:after {
+	bottom: -10px
+}
+
+.comment-blog-listing .user-comment h5 {
+	font-size: 12px;
+	color: #2b2a2f;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.comment-blog-listing .user-comment-list {
+	list-style: none;
+}
+.comment-blog-listing .user-comment-list > li {
+	padding-bottom: 32px;
+	border-bottom: 1px solid #eaeaee;
+	padding-top: 37px;
+}
+.comment-blog-listing .user-comment-list > li:first-child {
+	padding-top: 0;
+}
+.comment-blog-listing .user-comment-list li figure {
+	float: left;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.comment-blog-listing .user-comment-list li .user-comment {
+	float: right;
+	width: 84.6%;
+	padding-top: 5px;
+	position: relative;
+}
+.comment-blog-listing .user-comment  p {
+	margin-top: 20px;
+}
+.comment-blog-listing .user-comment  .comment-status {
+	position: absolute;
+	top: 0;
+	right: 0;
+	list-style: none;
+}
+
+.comment-blog-listing .user-comment  .comment-status li, .comment-blog-listing .user-comment  .comment-status li a {
+	float: left;
+	font-size: 14px;
+	color: #79797a;
+	font-weight: 600;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-right: 5px;
+}
+
+.comment-blog-listing .user-comment  .comment-status li a {
+	color: #b11f24;
+	text-transform: capitalize;
+	font-weight: 600;
+	text-decoration: none;
+}
+.comment-blog-listing .user-comment .comment-status li a:hover {
+	text-decoration: underline;
+}
+
+.left-subspacer {
+	margin-left: 11.6%;
+}
+.comment-blog-listing .user-comment-list li.left-subspacer .user-comment {
+	width: 83%;
+}
+.blog-details-page .blog-content {
+	padding-bottom: 77px;
+	padding-top: 103px;
+}
+.blog-details-page .leave-comment .underline-label:after {
+	bottom: -8px;
+}
+.blog-details-page .leave-comment .underline-label {
+	margin-bottom: 32px;
+}
+.blog-details-page .leave-comment .container {
+	position: relative;
+}
+.blog-details-page .leave-comment {
+	padding-bottom: 105px;
+}
+.blog-details-page .blog-content .featured-blog-list p {
+	padding: 0;
+	margin-top: 10px;
+}
+
+.blog-details-page .blog-comment {
+	width: 90%;
+}
+.blog-details-page .follow-us-list .fa-facebook {
+	display: block;
+	color: #ffffff;
+	font-size: 15px;
+	background: #0253a2;
+}
+
+/*
+ 9.) clients Section
+
+ -----------------------------*/
+.clients-content {
+	padding-top: 91px;
+	padding-bottom: 40px;
+}
+.clients-listing {
+	list-style: none;
+	border-bottom: 1px solid #dce1e8;
+	padding-bottom: 30px;
+}
+
+.clients-content .heading-details {
+	line-height: 28px;
+}
+
+.clients-content .clients-listing {
+	margin-top: 35px;
+}
+.clients-content .clients-listing  li {
+	margin-bottom: 64px;
+}
+.clients-content .clients-listing  li:hover span img {
+	opacity: .8;
+}
+.clients-content .clients-listing  li span {
+	background: #999999;
+	display: block;
+}
+.happy-clients {
+	padding-top: 34px;
+	padding-bottom: 105px;
+}
+.happy-clients .happy-client-state {
+	padding-left: 73px;
+	padding-top: 77px;
+}
+.happy-clients .taging-client {
+	font-size: 14px;
+	color: #2b2a2f;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.happy-clients .taging-client span {
+	display: block;
+	color: #ee3135;
+}
+body .happy-clients span.posting-by {
+	color: #000 !important;
+}
+.happy-client-list {
+	margin-bottom: 32px;
+	margin-top: 9px;
+}
+.happy-clients .happy-client-state p {
+	position: relative;
+	color: #79797A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.happy-clients .happy-client-state .about-us-paragraph:before {
+	content: "";
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -42px;
+	left: -43px;
+	display: inline-block;
+	background: url(../img/comma.png) center top no-repeat;
+}
+.view-btn {
+	float: right;
+	text-decoration: none;
+}
+.view-btn:hover, .view-btn:active {
+	color: #EE3135;
+	text-decoration: none;
+}
+
+/*
+ 9.) contact page
+
+ -----------------------------*/
+.contact-page .contact-form-form {
+	background: none;
+	padding-top: 102px;
+	padding-bottom: 90px;
+}
+
+.contact-page .form-block #name {
+	float: left;
+	width: 48.6%;
+	margin-right: 23px;
+}
+
+.contact-page .form-block #email {
+	float: left;
+	width: 48.6%;
+}
+
+.contact-page  form {
+	margin-top: 26px;
+}
+.contact-page .form-block {
+	margin-top: 9px;
+}
+.contact-page .form-block textarea {
+	margin-top: 20px;
+	min-height: 222px;
+}
+.contact-page .form-block input, .contact-page .form-block textarea {
+	font-size: 14px;
+	color: #adadb7;
+	text-transform: capitalize;
+}
+.contact-page .underline-label {
+	line-height: 32px;
+}
+.contact-page .underline-label:after {
+	bottom: -10px;
+}
+.contact-page .contact-details address {
+	margin-top: 34px;
+}
+.contact-page .contact-details .address strong {
+	font-size: 17px;
+	font-weight: 700;
+	color: #2b2a2f;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.2;
+}
+.contact-page .contact-details address .about-us-paragraph {
+	display: block;
+	line-height: 23px;
+	margin-top: 12px;
+}
+.contact-form-form .container {
+	position: relative;
+}
+.contact-page .contact-details .phone {
+	margin-top: 30px;
+}
+.contact-page .contact-details .phone a, .contact-page .contact-details .phone span {
+	color: #79797A;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	margin-top: 5px;
+	text-decoration: none;
+	outline: none;
+}
+
+.contact-page .contact-details .phone span {
+	color: #2b2a2f;
+	text-transform: uppercase;
+	margin: 5px 3px 0px;
+}
+.contact-page .contact-details .email {
+	margin-top: 24px;
+}
+
+.contact-page .google-map img {
+	width: 100%;
+}
+
+/*
+ 10.1) faq-listing section
+
+ -----------------------------*/
+.faq-listing {
+	padding-top: 94px;
+	padding-bottom: 83px;
+}
+.faq-group {
+	font-size: 0;
+}
+.faq-listing-list p {
+	margin-top: 13px;
+}
+.faq-listing-list {
+	padding-left: 5.6%;
+	position: relative;
+	min-height: 211px;
+	margin-top: 24px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+}
+
+.faq-listing .question-label {
+	width: 28px;
+	height: 28px;
+	display: block;
+	border: 1px solid #ced5e0;
+	text-align: center;
+	font-size: 16px;
+	color: #ee3135;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 25px;
+	position: absolute;
+	left: 16px;
+	top: -2px;
+}
+.faq-listing .faq-listing-list .about-us-paragraph {
+	margin-top: 13px;
+}
+
+.faq-comment .question-input {
+	width: 81%;
+	background: #ffffff;
+	border: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 13px;
+	color: #9b9ba4;
+	height: 52px;
+	line-height: 52px;
+	float: left;
+}
+.faq-comment {
+	padding: 61px 0px;
+}
+.consulation.faq-comment .consult-info {
+	padding-top: 16px;
+}
+
+.faq-comment .go-btn {
+	width: 52px;
+	height: 52px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 52px;
+	color: #ffffff;
+	font-weight: 600;
+	border: none;
+	font-size: 16px;
+	background: #e24141;
+	margin-left: -3px;
+	position: relative;
+	float: left;
+	outline: none;
+}
+
+/*
+ 11.1)  history-content section
+
+ -----------------------------*/
+
+.history-content {
+	padding-top: 71px;
+	padding-bottom: 57px;
+}
+.history-content .heading-details {
+	line-height: 27px;
+}
+.history-content .video-section {
+	position: relative;
+}
+.history-content .play-icon {
+	background: none repeat scroll 0 0 #F63C40;
+	border: 3px solid #FFFFFF;
+	border-radius: 50%;
+	display: block;
+	height: 70px;
+	left: 0;
+	margin: 0 auto;
+	padding-left: 28px;
+	padding-top: 21px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 36%;
+	width: 70px;
+	outline: none;
+	text-decoration: none;
+}
+.history-content .play-btn {
+	display: block;
+	border-left: 11px solid #ffffff;
+	border-right: 11px solid transparent;
+	border-top: 11px solid transparent;
+	border-bottom: 11px solid transparent;
+}
+
+.history-content .video-container {
+	margin-top: 15px;
+	padding-bottom: 54px;
+	border-bottom: 1px solid #e8e8ef;
+}
+.history-content .history-declaration {
+	padding-top: 24px;
+	padding-bottom: 20px;
+}
+.yearwise-listing {
+	margin-top: 25px;
+	position: relative;
+}
+.yearwise-listing h3 span {
+	color: #ee3135;
+}
+.yearwise-listing p {
+	margin-top: 25px;
+	color: #79797A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.yearwise-listing  .spacer-right {
+	padding-right: 43px;
+}
+.yearwise-listing {
+	font-size: 0;
+}
+.year-listing-block {
+	min-height: 238px;
+	padding-bottom: 30px;
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+}
+.block-divisor {
+	height: 749px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: -56px;
+	width: 31px;
+	border-left: 1px solid #e7e7ef;
+}
+.block-divisor > span {
+	border: 1px solid #E7E7EF;
+	border-radius: 50%;
+	display: block;
+	height: 20px;
+	left: -11px;
+	padding-left: 6.5px;
+	padding-top: 7px;
+	position: absolute;
+	top: 8.5%;
+	width: 20px;
+}
+.block-divisor > span > span {
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #b11f24;
+	display: block;
+}
+.block-divisor .circle-one {
+	top: 39.4%;
+}
+
+.block-divisor .circle-two {
+	top: 71%;
+}
+.our-history-year {
+	padding-bottom: 76px;
+}
+/*
+ 12.1)   practice-one-detail section
+
+ -----------------------------*/
+
+.practice-one-page .practice-detail-container {
+	padding-top: 103px;
+	padding-bottom: 59px;
+}
+
+.practice-one-page .practice-detail-box {
+	margin-top: 26px;
+	padding-bottom: 49px;
+}
+.practice-one-page .practice-detail-container .detail-caption {
+	width: 54%;
+	float: left;
+}
+
+.practice-one-page .detail-one-description {
+	float: right;
+	width: 42%;
+	padding-top: 18px;
+}
+.attorney-detail-page p {
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color: #79797a;
+}
+.practice-one-page .practice-detail-box-3 {
+	margin-top: 45px;
+	padding-bottom: 40px;
+}
+.practice-one-page .box-detail-left {
+	float: left;
+	width: 31%;
+	margin-right: 29px;
+}
+.practice-one-page .box-detail-right {
+	width: 65.5%;
+	float: right;
+}
+.practice-one-page .practice-detail-box-3  .about-us-paragraph {
+	margin-top: 27px;
+}
+/*
+ 13.1)  practice-details-page section
+
+ -----------------------------*/
+.practice-details-page .practice-detail-container {
+	padding-top: 102px;
+	padding-bottom: 106px;
+}
+.practice-details-page .our-services {
+	float: right;
+}
+.practice-details-page .practice-detail-box {
+	margin-top: 26px;
+}
+.practice-details-page  p {
+	margin-top: 34px;
+}
+.practice-details-page  .user-quote {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding-top: 2px;
+}
+.contact-attorney {
+	display: inline-block;
+	line-height: 42px;
+	margin-top: 30px;
+	min-height: 44px;
+	padding-left: 34px;
+	padding-right: 34px;
+}
+
+/*
+ 14.1)  page-not-found section
+
+ -----------------------------*/
+.page-not-found {
+	text-align: center;
+	padding-top: 135px;
+	padding-bottom: 125px;
+}
+.error-value {
+	display: block;
+	text-align: center;
+	font-size: 100px;
+	color: #ee373b;
+	font-weight: 700;
+	padding-top: 13px;
+	padding-bottom: 6px;
+}
+.error-msg, .error-msg span {
+	font-size: 24px;
+	color: #2b2a2f;
+	text-transform: uppercase;
+	line-height: 45px;
+	margin-top: 4px;
+	display: inline-block;
+}
+.error-msg {
+	border-top: 1px solid #bfc7e1;
+	border-bottom: 1px solid #bfc7e1;
+}
+.error-msg span {
+	font-weight: 800;
+}
+.bin {
+	display: inline-block;
+	position: relative;
+}
+.bin .fa-times {
+	bottom: -5px;
+	font-size: 32px;
+	position: absolute;
+	right: 9px;
+}
+/*
+ 15.) practice-listings-container section
+
+ -----------------------------*/
+
+.practice-listings-container {
+	padding-top: 103px;
+	padding-bottom: 49px;
+}
+.area-list-collection {
+	min-height: 451px;
+	padding-bottom: 40px;
+}
+.area-list-collection figure {
+	overflow: hidden;
+}
+.practice-listings-container p {
+	margin-bottom: 19px;
+	color: #79797A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+.practice-area-lists {
+	margin-top: 36px;
+}
+.practice-area-lists h3 {
+	font-size: 17px;
+	margin-top: 25px;
+}
+.more {
+	font-size: 13px;
+	display: inline-block;
+}
+.more:hover {
+	text-decoration: underline;
+}
+.practice-listings-container .top-spacer {
+	margin-top: 18px;
+}
+
+/*
+ 16.) testimonial page section
+
+ -----------------------------*/
+.testimonial {
+	padding-top: 102px;
+	padding-bottom: 97px;
+}
+
+/*
+ 17.1) Shortcode container section
+
+ -----------------------------*/
+.shortcode-container {
+	padding-top: 88px;
+	padding-bottom: 110px;
+}
+
+/*CSS style for Search Bar start here*/
+.search-bar {
+	margin-bottom: 40px;
+}
+.search-bar .search-input {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ced3dd;
+	font-size: 13px;
+	color: #79797a;
+	padding-left: 15px;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+}
+.search-bar form {
+	position: relative;
+	margin-top: 15px;
+}
+
+.search-bar .submit-area {
+	position: absolute;
+	top: 2px;
+	right: 0px;
+	width: 30px;
+	height: 30px;
+}
+.search-bar .submit-area .search-submit {
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: transparent;
+	z-index: 99;
+	position: absolute;
+}
+
+.search-bar .fa-search {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	font-size: 15px;
+	color: #2b2a2f;
+}
+/*CSS style for Search Bar End here*/
+
+/*CSS style for Tag Widget start here*/
+
+.tag-widget-list {
+	margin-left: -7px;
+	margin-top: 17px;
+}
+.tag-widget-list li {
+	background: none repeat scroll 0 0 #ffffff;
+	border: 1px solid #ced3dd;
+	float: left;
+	height: 40px;
+	list-style: outside none none;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	min-width: 60px;
+}
+.tag-widget-list li.active a {
+	background: #b11f24;
+	color: #ffffff;
+}
+.tag-widget-list li a {
+	color: #2b2a2f;
+	display: block;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 40px;
+	outline: medium none;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 18px;
+}
+/*CSS style for Tag Widget End here*/
+
+/*CSS style for Tab Widget start here*/
+
+.tab-widget {
+	margin-top: 35px;
+}
+.tab-widget .nav-tabs {
+	margin-top: 15px;
+	margin-left: -8px;
+	border: none;
+}
+.tab-widget .nav-tabs li {
+	min-width: 126px;
+	min-height: 40px;
+	border: 1px solid #ced3dd;
+	text-align: center;
+	margin-left: 8px;
+	background: #ffffff;
+}
+.tab-widget .nav-tabs li a {
+	color: #2b2a2f;
+	display: block;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 40px;
+	outline: medium none;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0;
+	border-radius: 0;
+}
+.tab-widget .nav-tabs li.active a {
+	background: #b11f24;
+	color: #ffffff;
+	margin-right: 0;
+}
+
+.para-text {
+	font-size: 13px;
+	color: #79797a;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	word-break: break-all;
+	margin-top: 10px;
+}
+.tab-widget .tab-content {
+	border: 1px solid #ced3dd;
+	padding: 6px 24px 8px;
+	margin-top: 4px;
+}
+.tab-widget .tab-content ul {
+	list-style: none;
+}
+.tab-widget .tab-content ul li {
+	border-bottom: 1px solid #efe8e8;
+	padding-bottom: 14px;
+	padding-top: 22px;
+}
+.tab-widget .tab-content ul li:last-child {
+	border: none;
+}
+
+/*CSS style for Tab Widget End  here*/
+
+/*CSS style for category Widget start here*/
+
+.category-widget {
+	margin-top: 50px;
+}
+.category-widget .panel-default h4 a {
+	font-size: 13px;
+	color: #2b2a2f;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+	padding: 25px 20px 15px 20px;
+	display: block;
+}
+.category-widget .panel-default {
+	padding: 0;
+}
+.category-widget .panel-group {
+	margin-top: 15px;
+}
+
+.category-widget .panel-collapse {
+	border: none;
+}
+.category-widget .panel-body {
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+	width: 100%;
+	float: none;
+	padding: 0px 20px 10px 20px;
+	word-break: break-all;
+}
+.category-widget .panel-heading {
+	position: relative;
+}
+.category-widget .panel-heading  .fa-plus-square-o {
+	color: #2b2a2f;
+	font-size: 17px;
+	font-weight: 500;
+	position: absolute;
+	right: 19px;
+	top: 25px;
+	opacity: 1;
+}
+.category-widget .panel-heading .fa-minus-square-o {
+
+	color: #b11f24;
+	font-size: 17px;
+	font-weight: 500;
+	position: absolute;
+	right: 19px;
+	top: 25px;
+	opacity: 0;
+}
+.category-widget .panel-heading .active .fa-minus-square-o {
+	opacity: 1;
+}
+.category-widget .panel-heading .active .fa-plus-square-o {
+	opacity: 0;
+}
+
+/*CSS style for category Widget End here*/
+
+/*CSS style for page-widget Start here*/
+.page-widget {
+	margin-top: 25px;
+}
+.page-widget .nav.nav-pills {
+	margin-top: 16px;
+}
+.page-widget .nav-pills > li.active > a, .page-widget .nav-pills > li.active > a:hover, .page-widget .nav-pills > li.active > a:focus {
+	background: none;
+	color: #2b2a2f;
+}
+.page-widget .nav-pills {
+	padding-top: 8px;
+	padding-bottom: 13px;
+	border: 1px solid #ced3dd;
+	background: #ffffff;
+}
+.page-widget .nav-pills > li {
+	margin-top: 0;
+}
+.page-widget .nav-pills > li > a {
+	font-size: 13px;
+	color: #2b2a2f;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: none;
+	padding: 12px 20px 12px 38px;
+	border-top: 1px solid #ced3dd;
+	position: relative;
+}
+.page-widget .nav-pills > li:first-child a {
+	border: none;
+}
+.page-widget .nav-pills > li .submenu {
+	list-style: none;
+	padding-left: 58px;
+	margin-top: 10px;
+	display: none;
+}
+.page-widget .nav-pills > li.active .submenu {
+	display: block;
+}
+.page-widget .nav-pills > li .submenu a {
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	outline: none;
+	padding: 10px;
+	position: relative;
+}
+.page-widget .nav-pills > li .submenu li {
+	margin-bottom: 20px;
+}
+
+.page-widget .nav-pills > li .submenu .fa-dot-circle-o {
+	color: #2b2a2f;
+	font-size: 12px;
+	left: -11px;
+	position: absolute;
+	top: 11px;
+}
+.page-widget .nav-pills > li > a .fa-angle-right {
+	color: #b11f24;
+	font-size: 18px;
+	font-weight: 600;
+	left: 19px;
+	position: absolute;
+	top: 10px;
+	transition: .3s transform ease;
+	-webkit-transition: .3s transform ease;
+	-moz-transition: .3s transform ease;
+}
+.page-widget .nav-pills > li.active > a .fa-angle-right {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+}
+
+/*CSS style for page-widget End here*/
+
+/*CSS style for paginations-box Start here*/
+
+.paginations-box .pagination {
+	margin-top: 14px;
+	margin-bottom: 2px;
+}
+
+.paginations-box .pagination li a, .paginations-box .pagination li a span {
+	font-size: 12px;
+	color: #2b2a2f;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 28px;
+	padding: 5px 16px;
+}
+.paginations-box .pagination li a {
+	min-width: 40px;
+	float: none;
+	display: block;
+}
+.paginations-box .pagination li a span {
+	padding: 0 6px;
+}
+.paginations-box .pagination li {
+	margin-right: 10px;
+	float: left;
+	text-align: center;
+}
+.paginations-box .pagination li.dot {
+	min-height: 40px;
+}
+.paginations-box .pagination li a.prev, .paginations-box .pagination li a.next {
+	min-width: 98px;
+	display: block;
+	border-radius: 0;
+}
+
+.left-paging {
+	float: left;
+	width: 78%;
+}
+.right-paging {
+	float: left;
+	width: 20%;
+}
+.paginations-box .right-paging a {
+	border-radius: 0;
+	min-width: 40px;
+	min-height: 40px;
+	line-height: 38px;
+	padding: 0;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+}
+.paginations-box .right-paging .pager {
+	margin-top: 14px;
+	margin-bottom: 2px;
+	text-align: left;
+}
+.paginations-box .right-paging a.fa-angle-left, .paginations-box .right-paging a.fa-angle-right {
+	font-size: 14px;
+	font-weight: 600;
+	color: #2b2a2f;
+}
+.active-pager .pagination li.active a {
+	background: #b11f24;
+	border: 1px solid #b11f24;
+}
+.active-pager .pagination li.active a span, .active-pager .right-paging li a.fa-angle-left, .active-pager .right-paging li a.fa-angle-right {
+	color: #ffffff;
+}
+.active-pager .pagination li a {
+	background: #eceff3;
+}
+.active-pager .right-paging li a {
+
+	background: #b11f24;
+}
+.paginations-box .pagination li.dot a, .active-pager .pagination li.dot a {
+	border: none;
+	padding: 0;
+	margin-left: -4px;
+	margin-top: 6px;
+	background: #ffffff;
+}
+/*CSS style for paginations-box End here*/
+
+/*CSS style for social-media Start here*/
+.social-media {
+	margin-top: 54px;
+}
+.social-media .basic-listing {
+	margin-top: 20px;
+}
+.social-media .basic-listing li {
+	border: 1px solid #ced3dd;
+	line-height: 36px;
+	margin-right: 8px;
+	min-height: 38px;
+	min-width: 42px;
+	padding: 3px 0 0;
+	text-align: center;
+	background: #ffffff;
+}
+.social-media .basic-listing li a {
+	font-size: 17px;
+	color: #2b2a2f;
+}
+.social-media .active-listing {
+	margin-top: 9px;
+}
+.social-media .active-listing li a {
+	color: #ffffff;
+}
+.social-media .active-listing .facebook {
+	background: #2c8dd8;
+}
+.social-media .active-listing .twitter {
+	background: #1fc1f5;
+}
+.social-media .active-listing .linkdin {
+	background: #56aaea;
+}
+.social-media .active-listing .google-plus {
+	background: #b11f24;
+}
+.social-media .active-listing .instagram {
+	background: #42688e;
+}
+.social-media .active-listing .pinterest {
+	background: #f1593f;
+}
+
+/*CSS style for social-media End here*/
+/*CSS style for Fetured listing Start here*/
+.featured-list {
+	margin-top: 58px;
+}
+.directional-list {
+	list-style: none;
+	margin-top: 31px;
+}
+.directional-list li a {
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	outline: none;
+	position: relative;
+	padding-left: 21px;
+}
+.directional-list li {
+	margin-bottom: 20px;
+}
+.directional-list li a .fa-angle-right, .directional-list li a .fa-dot-circle-o {
+	color: #b11f24;
+	font-size: 22px;
+	font-weight: 700;
+	left: -1px;
+	position: absolute;
+	top: -3px;
+}
+
+.circle-list li a {
+	padding-left: 25px;
+}
+.circle-list li a .fa-dot-circle-o {
+	font-size: 17px;
+	left: 0;
+	top: 0px;
+}
+
+/*CSS style for Fetured listing End here*/
+
+/*CSS style for slider-code Start here*/
+.slider-code {
+	margin-top: 37px;
+}
+.slider-code .carousel.slide {
+	margin-top: 22px;
+}
+
+.slider-code .left.carousel-control, .slider-code .right.carousel-control {
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 30px;
+	background-color: #b11f24;
+	line-height: 40px;
+	text-align: center;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 0%);
+}
+.slider-code .right.carousel-control {
+	right: 30px;
+	left: auto;
+}
+.slider-code .carousel-indicators .active {
+	background: #b11f24;
+	width: 20px;
+	height: 20px;
+}
+.slider-code .carousel-indicators li {
+	width: 20px;
+	height: 20px;
+	border: 3px solid #ffffff;
+	background: #976b4e;
+	margin: 0;
+}
+
+/*CSS style for slider-code End here*/
+
+/*CSS style for accordian-block Start here*/
+
+.accordian-block {
+	margin-top: 60px;
+}
+.accordian-block #accordion1 {
+	margin-top: 11px;
+}
+.accordian-block .panel-default {
+	border-bottom: 1px solid #ced3dd;
+	padding-left: 10px;
+}
+.accordian-block .panel-heading a {
+	font-size: 13px;
+	color: #2b2a2f;
+	font-weight: 600;
+	display: block;
+	text-transform: uppercase;
+	padding: 20px 25px;
+	outline: none;
+	text-decoration: none;
+	position: relative;
+}
+
+.accordian-block .panel-body {
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+	width: 100%;
+	float: none;
+	padding: 0px 50px 50px 20px;
+	word-break: break-all;
+}
+
+.accordian-block .panel-heading a .fa-caret-down, .accordian-block .panel-heading a .fa-caret-up {
+	position: absolute;
+	right: 35px;
+	top: 17px;
+	font-size: 17px;
+	color: #2b2a2f;
+}
+.accordian-block .panel-heading a.active .fa-caret-down {
+	opacity: 0;
+}
+.accordian-block .panel-heading a .fa-caret-up {
+	top: 15px;
+	color: #b11f24;
+	opacity: 0;
+}
+
+.accordian-block .panel-heading a.active .fa-caret-up {
+	opacity: 1;
+}
+/*CSS style for accordian-block End here*/
+/*CSS style for toggle-block Start here*/
+
+.toggle-block {
+	margin-top: 64px;
+}
+.toggle-block .toggle-container {
+	border: 1px solid #ced3dd;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.toggle-block .toggle-box {
+	border-top: 1px solid #ced3dd;
+}
+.toggle-block .toggle-box:first-child {
+	border: none;
+}
+.toggle-block .toggle-head h4 a {
+	font-size: 13px;
+	color: #2b2a2f;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 23px 50px 17px 29px;
+	display: block;
+	text-decoration: none;
+	outline: none;
+	position: relative;
+}
+.toggle-block .toggle-head h4 a .fa-plus, .toggle-block .toggle-head h4 a .fa-minus {
+	color: #2b2a2f;
+	font-size: 13px;
+	position: absolute;
+	right: 38px;
+	top: 24px;
+	opacity: 1;
+}
+.toggle-block .toggle-head.active h4 a .fa-plus {
+	opacity: 0;
+}
+.toggle-block .toggle-head h4 a .fa-minus {
+	color: #b11f24;
+	opacity: 0;
+}
+.toggle-block .toggle-body {
+	display: none;
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	padding: 1px 40px 30px 30px;
+}
+.toggle-block .toggle-head.active a .fa-minus {
+	opacity: 1;
+}
+
+/*CSS style for toggle-block End here*/
+
+.column-griding .para-column {
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+}
+
+.column-griding {
+	margin-top: 125px;
+}
+
+.column-griding .one-fourth-column {
+	margin-top: 42px;
+}
+.column-griding .half-column, .one-third {
+	margin-top: 56px;
+}
+.column-griding .half-column .para-column, .column-griding .one-third .para-column {
+	margin-top: 18px;
+}
+
+/*/common css for all section/*/
+
+.underline-label {
+	position: relative;
+	margin-bottom: 20px;
+}
+.underline-label:after {
+	width: 27px;
+	height: 2px;
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	display: block;
+	background: #b11f24;
+}
+.blog-one-page .underline-label:after {
+	bottom: -20px
+}
+.attorney-detail-container .education h3, .attorney-detail-container .contact-him h3 {
+	position: relative;
+	margin-bottom: 20px;
+}
+.attorney-detail-container .education h3:after, .attorney-detail-container .contact-him h3:after {
+	width: 27px;
+	height: 2px;
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	display: block;
+	background: #b11f24;
+}
+.about-us-page p {
+	font-size: 13px;
+	color: #79797a;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+}
+.about-us-page .about-us-paragraph {
+	padding-left: 0;
+}
+.about-us-page .about-us-paragraph p {
+	margin-top: 0px;
+}
+/*css for making review star*/
+.stars-list ul {
+	list-style: none;
+}
+.stars-list ul li {
+	float: left;
+	margin-right: 8px;
+}
+.stars-list li .fa.fa-star {
+	font-size: 20px;
+	color: #d7dae0;
+	text-decoration: none;
+	display: block;
+}
+.stars-list li.active .fa.fa-star {
+
+	color: #efbe14;
+}
+
+.attorney-detail-page .top-footer, .attorney-listing-page .top-footer, .attorney-listing-one-page .top-footer, .bg-all {
+	background: #e7ebf3;
+}
+
+.user-quote {
+	background: #e7f4f8;
+	padding: 21px 24px 34px 97px;
+}
+
+.practice-details-page p {
+	color: #79797A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.user-quote p {
+	font-style: italic;
+	position: relative;
+}
+.user-quote {
+	position: relative;
+}
+.user-quote:after {
+	content: "";
+	display: block;
+	height: 37px;
+	left: 25px;
+	position: absolute;
+	top: -19px;
+	width: 41px;
+	background: url(../img/comma-1.png) center top no-repeat;
+}
+.by {
+	font-size: 13px;
+	color: #2b2a2f;
+	text-transform: uppercase;
+}
+.by span {
+	font-weight: 700;
+}
+
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel {
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper {
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item {
+	float: left;
+}
+.owl-controls .owl-page, .owl-controls .owl-buttons div {
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing {
+	cursor: url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper, .owl-carousel  .owl-item {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+}
+
+/*
+ * 	Owl Carousel Owl Demo Theme
+ *	v1.3.3
+ */
+
+.owl-theme .owl-controls {
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div {
+	color: #FFF;
+	display: inline-block;
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page {
+	display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 2px;
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading {
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
