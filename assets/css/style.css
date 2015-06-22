@@ -3752,7 +3752,7 @@ body .happy-clients span.posting-by {
 	position: absolute;
 	top: -19px;
 	width: 41px;
-	background: url(../img/comma-1.png) center top no-repeat;
+	/*background: url(../img/comma-1.png) center top no-repeat;*/
 }
 .by {
 	font-size: 13px;
