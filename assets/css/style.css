@@ -1155,7 +1155,8 @@
 	position: relative;
 	width: 100%;
 	min-height: 250px;
-	background: url(../img/banner-1.jpg) center top no-repeat;
+	/*background: url(../img/banner-1.jpg) center top no-repeat;*/
+	background: url(../img/criminal-defense-overview.jpg) center top no-repeat;
 	background-size: cover;
 }
 #slider.banner-two .about-banner {
