@@ -101,7 +101,8 @@ $(document).ready(function() {
 		$('.tag-widget-list li.active').removeClass('active');
 		$(this).addClass('active');
 
-	});	// js for tag-widget End here
+	});
+	// js for tag-widget End here
 	// js for catogery-widget Start here
 	$('.page-widget').find('.nav-pills > li > .sub').click(function() {
 		$('.nav-pills > li.active').removeClass('active');
@@ -146,7 +147,8 @@ $(document).ready(function() {
 				if ($(window).scrollTop() > ($(this).offset().top - $(window).height() / 1.15)) {
 					$(this).addClass('animate');
 				}
-			})		}
+			})
+		}
 		//if ($('.anim-section').length) {
 		animSection()
 		$(window).scroll(function() {
@@ -219,8 +221,8 @@ $(document).ready(function() {
 	if ($('#map').length) {
 		var map = new GMaps({
 			div : '#map',
-			lat : 41.402619,
-			lng : -74.333062,
+			lat : 34.070965,
+			lng : -118.40172,
 			disableDefaultUI : true,
 			zoom : 17,
 			scrollwheel : false
@@ -236,22 +238,22 @@ $(document).ready(function() {
 		if ($(window).width() >= 1200) {
 			map.setOptions({
 				styles : Site.styles,
-				center : new google.maps.LatLng(41.401836, -74.329801),
+				center : new google.maps.LatLng(34.070965, -118.40172),
 			});
 		} else if ($(window).width() >= 992) {
 			map.setOptions({
 				styles : Site.styles,
-				center : new google.maps.LatLng(41.401836, -74.331801),
+				center : new google.maps.LatLng(34.070965, -118.40172),
 			});
 		} else if ($(window).width() >= 768) {
 			map.setOptions({
 				styles : Site.styles,
-				center : new google.maps.LatLng(41.401836, -74.329801),
+				center : new google.maps.LatLng(34.070965, -118.40172),
 			});
 		} else {
 			map.setOptions({
 				styles : Site.styles,
-				center : new google.maps.LatLng(41.400136, -74.332562),
+				center : new google.maps.LatLng(34.070965, -118.40172),
 			});
 		}
 	}
@@ -325,5 +327,6 @@ $(document).ready(function() {
 	stickOnScroll()
 	$(window).scroll(function() {
 		stickOnScroll()
-	})});
+	})
+});
 
