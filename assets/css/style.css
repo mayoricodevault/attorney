@@ -1168,8 +1168,8 @@
 #slider.banner-three .about-banner {
 	position: relative;
 	width: 100%;
-	min-height: 250px;
-	background: url(../img/banner-3.jpg) center top no-repeat;
+	min-height: 350px;
+	background: url(http://www.jonathanfranklinlaw.com//wp-content/themes/xhtmlchop_7782/Includes/Templates/Active/images/i-home.jpg) center top no-repeat;
 	background-size: cover;
 }
 
