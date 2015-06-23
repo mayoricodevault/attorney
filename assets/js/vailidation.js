@@ -47,6 +47,7 @@ jQuery(function($) {"use strict";
 			});
 
 			$('#submit').click(function() {
+				
 				var i = 0;
 				var x = $('#name').val();
 

@@ -1,11 +1,5 @@
 <?php 
-
-// Global Configuration start: From here you can change the email-id of receiver, cc, from email-id & subject;
-$to = "vikash@theemon.com";
-$from = "attornettemplate@theemon.com";
-$cc = "alok@sparxitsolutions.com";
-$subject = "Attorney Contact us form";
-// Global configuration end
+require("php/class.phpmailer.php");
 $errmasg = "";
 
  $name = htmlentities(trim($_POST['name']));
@@ -13,35 +7,35 @@ $errmasg = "";
  $subject = htmlentities(trim($_POST['company']));
  $msg = htmlentities(trim(nl2br($_POST['msg'])));
  
-if($email){
-$message = "<table border='0' cellpadding='2' cellspacing='2' width='600'>
-<tr><td>Name: ".$name." </td></tr>
-<tr><td>Email: ".$email."</td></tr>
-<tr><td>Subject: ".$subject."</td></tr>
-<tr><td>Message:".$msg."</td></tr>
-</table>";
- 
- } else{
- 	
-$errmasg = "No Data";	
- }
-// Always set content-type when sending HTML email
-$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$mail = new PHPMailer();
 
-// More headers
-$headers .= 'From:'.$from . "\r\n";
-$headers .= 'Cc:'.$cc . "\r\n";
+$mail->IsSMTP();                                 		 // send via SMTP
+$mail->Host     = "mail.tusintareas.com"; 					 // SMTP server
+$mail->SMTPAuth = true;    								 // turn on SMTP authentication
+$mail->Username = "gdavid.ptorrez@gmail.com"; 			     // SMTP username
+$mail->Password = "formatica";							 // SMTP password
 
 
+$mail->From     = "gdavid.ptorrez@gmail.com";				 // SMTP username
+$mail->AddAddress("gdavid.ptorrez@gmail.com");			  	 // Your Adress
+$mail->Subject  =  "Attorney help ".$name. '!' ;
 
-if($errmasg == ""){
-if(mail($to,$subject,$message,$headers)){
-     echo 1;   
-}else{
-    echo 'Error occurred while sending email';
+$mail->IsHTML(true);  
+$mail->CharSet = 'UTF-8';
+$mail->Body     =  "<p>Has recibido la siguiente consulta .</p>
+					  <p><strong>Nombre: </strong> {$name} </p>
+					  <p><strong>Correo Electronico: </strong> {$email} </p>
+					  <p><strong>Telefono: </strong> {$subject} </p>
+					  <p><strong>Instruciones: </strong> {$msg} "</p>
+					  
+
+if(!$mail->Send())
+{
+   echo "Correo no Enviado <p>";
+   echo "Error: " . $mail->ErrorInfo;
+   exit;
 }
-}else{
-    echo $errmasg;
-}
+
+echo "Successfull Email!";
+
 ?>

@@ -237,7 +237,7 @@ $(document).ready(function() {
 
 		if ($(window).width() >= 1200) {
 			map.setOptions({
-				styles : Site.styles,
+				// styles : Site.styles,
 				center : new google.maps.LatLng(34.070965, -118.40172),
 			});
 		} else if ($(window).width() >= 992) {
